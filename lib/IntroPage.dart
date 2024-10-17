@@ -35,6 +35,7 @@ class _IntroPageState extends State<IntroPage> {
                       children: [
                         const Text(
                           """
+                  
                      
                           
 Welcome to NeoInsight
