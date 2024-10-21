@@ -473,7 +473,7 @@ class _Tumor10State extends State<Tumor10> {
                 PeripheralOssiyingFibroma.clinicalFeatures),
             Tile.expand("Presentation", PeripheralOssiyingFibroma.presentation, imagePath: 'assets/tumors/image10.png'),
             Tile.expand("Radiographic Features",
-                PeripheralOssiyingFibroma.radiographicFeatures),
+                PeripheralOssiyingFibroma.radiographicFeatures, imagePath: 'assets/tumors/radiology/peripheral-ossifying.png'),
             Tile.expand("Histopathology", PeripheralOssiyingFibroma.histo),
             Tile.expand(
                 "Differential Diagnosis", PeripheralOssiyingFibroma.diffDiagno),
@@ -515,7 +515,7 @@ class _Tumor11State extends State<Tumor11> {
                 'Clinical Features', CentralOssifyingFibroma.clinicalFeatures),
             Tile.expand("Presentation", CentralOssifyingFibroma.presentation, imagePath: 'assets/tumors/image11.png'),
             Tile.expand("Radiographic Features",
-                CentralOssifyingFibroma.radiographicFeatures),
+                CentralOssifyingFibroma.radiographicFeatures, imagePath: 'assets/tumors/radiology/central-Ossifying.png'),
             Tile.expand("Macroscopic Features",
                 CentralOssifyingFibroma.macroscopicFeatures),
             Tile.expand("Histopathology", CentralOssifyingFibroma.histo),
