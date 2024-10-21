@@ -126,6 +126,19 @@ flutter:
     - assets/tumors/home.png
     - assets/tumors/people.png
     - assets/images/Designer.png
+    - assets/tumors/radiology/squamous-cell.png
+    - assets/tumors/radiology/peripheral-ossifying.png
+    - assets/tumors/radiology/peripheral-giant-cell.png
+    - assets/tumors/radiology/osteosarcoma.png
+    - assets/tumors/radiology/osteoma.png
+    - assets/tumors/radiology/non-hodkins.png
+    - assets/tumors/radiology/neurilemmoma.png
+    - assets/tumors/radiology/neurifibroma.png
+    - assets/tumors/radiology/myxoma.png
+    - assets/tumors/radiology/malignant-melanoma.png
+    - assets/tumors/radiology/fibrosarcoma.png
+    - assets/tumors/radiology/central-Ossifying.png
+    - assets/tumors/radiology/central-giant-cell.png
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/to/resolution-aware-images
