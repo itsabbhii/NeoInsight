@@ -230,7 +230,6 @@ class _Tumor3State extends State<Tumor3> {
         ),
       ),
     );
-    ;
   }
 }
 
