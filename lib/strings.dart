@@ -1,5 +1,3 @@
-import "package:flutter/material.dart";
-
 class Papilloma{
   static const description = '''Papilloma is a common benign neoplasm of the oral cavity, arising from the epithelial tissue. It is characterized by an exophytic papillary growth with a typical ‘cauliflower like’ appearance. This lesion constitutes about 2 percent of all oral neoplasms and it is believed by many investigators that they are caused by Human papilloma virus (HPV). HPV virus subtypes 6 and 11 have been detected from neoplastic tissues of papilloma in about 50 percent cases, whereas it is found in normal oral tissues in less than 5 percent cases.
   ''';

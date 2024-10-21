@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:neoinsight/IntroPage.dart';
+import 'package:neoinsight/SplashScreen.dart';
 import 'package:neoinsight/TumorsPage.dart';
 import 'package:neoinsight/homepage.dart';
 import 'TumorDescription.dart';
@@ -37,7 +38,7 @@ class MyApp extends StatelessWidget {
         ),
         useMaterial3: true,
       ),
-      home: const Homepage(),
+      home: SplashScreen(),
       routes: {
         '/tumors_page': (context) => const TumorsPage(),
         '/intro_page':(context) => const IntroPage(),

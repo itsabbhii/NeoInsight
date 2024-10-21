@@ -52,7 +52,7 @@ class CreditsPage extends StatelessWidget {
                   child: const Padding(
                     padding: EdgeInsets.all(12.0),
                     child: Text(
-                      'Under the skilled guidance of         Dr. Kalyani Bhargava',
+                      '''Under the skilled guidance of \nDr. Kalyani Bhargava''',
                       style: TextStyle(
                         fontSize: 20,
                         fontWeight: FontWeight.bold,

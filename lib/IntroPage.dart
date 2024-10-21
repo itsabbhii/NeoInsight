@@ -34,9 +34,7 @@ class _IntroPageState extends State<IntroPage> {
                       crossAxisAlignment: CrossAxisAlignment.center,
                       children: [
                         const Text(
-                          """
-                  
-                     
+                          """   
                           
 Welcome to NeoInsight
 """,
@@ -53,8 +51,6 @@ Welcome to NeoInsight
 This app provides comprehensive information on the various types, symptoms, and treatments associated with oral neoplasms. As students, we created this app to simplify complex topics and help fellow students grasp these critical concepts with ease.
                           
 Whether you're revising for exams or seeking a quick reference, NeoInsight is your go-to resource for mastering oral pathology.
-
-
 
 
 
