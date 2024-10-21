@@ -33,6 +33,27 @@ class Tile {
       ),
     );
   }
+
+  static PreferredSizeWidget appbar(String title, BuildContext context) {
+    return AppBar(
+      title: Text(title),
+      flexibleSpace: Container(
+        decoration: BoxDecoration(
+          gradient: LinearGradient(
+            colors: [Colors.white, Colors.purple.shade100],
+            begin: Alignment.topRight,
+            end: Alignment.bottomLeft,
+          ),
+        ),
+      ),
+      leading: IconButton(
+        onPressed: () {
+          Navigator.pop(context);
+        },
+        icon: const Icon(Icons.arrow_back),
+      ),
+    );
+  }
 }
 
 //--------------------------------------------------1-----------------------------static
@@ -60,16 +81,7 @@ class _Tumor1State extends State<Tumor1> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: const Text("Papilloma"),
-        backgroundColor: Colors.greenAccent,
-        leading: IconButton(
-          onPressed: () {
-            Navigator.pop(context);
-          },
-          icon: const Icon(Icons.arrow_back),
-        ),
-      ),
+      appBar: Tile.appbar("Papilloma", context),
       body: SingleChildScrollView(
         child: Column(
           children: <Widget>[
@@ -100,16 +112,7 @@ class _Tumor2State extends State<Tumor2> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: const Text("KeratoAcanthoma"),
-        backgroundColor: Colors.greenAccent,
-        leading: IconButton(
-          onPressed: () {
-            Navigator.pop(context);
-          },
-          icon: const Icon(Icons.arrow_back),
-        ),
-      ),
+      appBar: Tile.appbar("KeratoAcanthoma", context),
       body: SingleChildScrollView(
         child: Column(
           children: <Widget>[
@@ -143,16 +146,7 @@ class _Tumor3State extends State<Tumor3> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: const Text("Pigmented Cellular Nevus"),
-        backgroundColor: Colors.greenAccent,
-        leading: IconButton(
-          onPressed: () {
-            Navigator.pop(context);
-          },
-          icon: const Icon(Icons.arrow_back),
-        ),
-      ),
+      appBar: Tile.appbar("Pigmented Cellular Nevus", context),
       backgroundColor: Colors.white,
       body: SingleChildScrollView(
         child: Column(
@@ -176,10 +170,15 @@ class _Tumor3State extends State<Tumor3> {
                     fontStyle: FontStyle.italic),
               ),
             ),
-            Tile.expand('Definition', PigmentedCellularNevus.intradermalDescription, imagePath: 'assets/tumors/image3.png'),
-            Tile.expand('Clinical Features', PigmentedCellularNevus.intradermalClinicalFeatures),
-            Tile.expand("Histopathology", PigmentedCellularNevus.intradermalHist),
-            Tile.expand("Treatment", PigmentedCellularNevus.intradermalTreatment),
+            Tile.expand(
+                'Definition', PigmentedCellularNevus.intradermalDescription,
+                imagePath: 'assets/tumors/image3.png'),
+            Tile.expand('Clinical Features',
+                PigmentedCellularNevus.intradermalClinicalFeatures),
+            Tile.expand(
+                "Histopathology", PigmentedCellularNevus.intradermalHist),
+            Tile.expand(
+                "Treatment", PigmentedCellularNevus.intradermalTreatment),
             const Padding(
               padding: EdgeInsets.only(left: 15, right: 15, top: 0),
               child: Text(
@@ -190,9 +189,12 @@ class _Tumor3State extends State<Tumor3> {
                     fontStyle: FontStyle.italic),
               ),
             ),
-            Tile.expand("Clinical Features", PigmentedCellularNevus.junctionalClinicalFeatures),
-            Tile.expand("Histopathology", PigmentedCellularNevus.junctionalHist),
-            Tile.expand("Treatment", PigmentedCellularNevus.junctionalTreatment),
+            Tile.expand("Clinical Features",
+                PigmentedCellularNevus.junctionalClinicalFeatures),
+            Tile.expand(
+                "Histopathology", PigmentedCellularNevus.junctionalHist),
+            Tile.expand(
+                "Treatment", PigmentedCellularNevus.junctionalTreatment),
             const Padding(
               padding: EdgeInsets.only(left: 15, right: 15, top: 0),
               child: Text(
@@ -203,8 +205,10 @@ class _Tumor3State extends State<Tumor3> {
                     fontStyle: FontStyle.italic),
               ),
             ),
-            Tile.expand("Definition", PigmentedCellularNevus.compoundDescription),
-            Tile.expand("Clinical Features", PigmentedCellularNevus.compoundClinicalFeatures),
+            Tile.expand(
+                "Definition", PigmentedCellularNevus.compoundDescription),
+            Tile.expand("Clinical Features",
+                PigmentedCellularNevus.compoundClinicalFeatures),
             Tile.expand("Histopathology", PigmentedCellularNevus.compoundHist),
             Tile.expand("Treatment", PigmentedCellularNevus.compoundTreatment),
             const Padding(
@@ -218,7 +222,8 @@ class _Tumor3State extends State<Tumor3> {
               ),
             ),
             Tile.expand("Definition", PigmentedCellularNevus.blueDescription),
-            Tile.expand("Clinical Features", PigmentedCellularNevus.blueClinicalFeatures),
+            Tile.expand("Clinical Features",
+                PigmentedCellularNevus.blueClinicalFeatures),
             Tile.expand("Histopathology", PigmentedCellularNevus.blueHist),
             Tile.expand("Treatment", PigmentedCellularNevus.blueTreatment),
           ],
@@ -242,41 +247,47 @@ class _Tumor5State extends State<Tumor5> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: const Text("Squamous Cell Carcinoma"),
-        backgroundColor: Colors.greenAccent,
-        leading: IconButton(
-          onPressed: () {
-            Navigator.pop(context);
-          },
-          icon: const Icon(Icons.arrow_back),
-        ),
-      ),
+      appBar: Tile.appbar("Squamous Cell Carcinoma", context),
       body: SingleChildScrollView(
         child: Column(
           children: <Widget>[
             Tile.expand('Definition', SquamousCellCarcinoma.definition),
             Tile.expand('Epidemiology', SquamousCellCarcinoma.epidemiology),
-            Tile.expand('Etiology of Oral Cancer', SquamousCellCarcinoma.etiology),
-            Tile.expand('Role of Tobacco in Oral Cancer', SquamousCellCarcinoma.role),
+            Tile.expand(
+                'Etiology of Oral Cancer', SquamousCellCarcinoma.etiology),
+            Tile.expand(
+                'Role of Tobacco in Oral Cancer', SquamousCellCarcinoma.role),
             Tile.expand('Alcohol', SquamousCellCarcinoma.alcohol),
             Tile.expand('Diet and Nutrition', SquamousCellCarcinoma.diet),
             Tile.expand('Dental Factors', SquamousCellCarcinoma.dental),
-            Tile.expand('Ultravoilet Radiation', SquamousCellCarcinoma.uvradiation),
+            Tile.expand(
+                'Ultravoilet Radiation', SquamousCellCarcinoma.uvradiation),
             Tile.expand('Ionizing Radiation', SquamousCellCarcinoma.ionizing),
             Tile.expand('Viruses', SquamousCellCarcinoma.viruses),
-            Tile.expand('Immunosuppression', SquamousCellCarcinoma.immunosuppresion),
-            Tile.expand('Chronic oral infections', SquamousCellCarcinoma.chronicOral),
-            Tile.expand('Atmospheric Pollution', SquamousCellCarcinoma.atmosphericPollution),
-            Tile.expand('Occupational Hazzards', SquamousCellCarcinoma.occupationalHazzard),
+            Tile.expand(
+                'Immunosuppression', SquamousCellCarcinoma.immunosuppresion),
+            Tile.expand(
+                'Chronic oral infections', SquamousCellCarcinoma.chronicOral),
+            Tile.expand('Atmospheric Pollution',
+                SquamousCellCarcinoma.atmosphericPollution),
+            Tile.expand('Occupational Hazzards',
+                SquamousCellCarcinoma.occupationalHazzard),
             Tile.expand('Genetic Factors', SquamousCellCarcinoma.geneticFactor),
-            Tile.expand('Tumor Suppressor genes', SquamousCellCarcinoma.tumorSuppression),
-            Tile.expand('Pre-existing oral lesions', SquamousCellCarcinoma.preExisting),
-            Tile.expand('Clinical Features', SquamousCellCarcinoma.clinicalFeatures),
-            Tile.expand("Clinical Presentation", SquamousCellCarcinoma.clinicalPresentation, imagePath: 'assets/tumors/image5.jpg'),
-            Tile.expand("Carcinoma of the lip", SquamousCellCarcinoma.lipCarcinoma),
-            Tile.expand("Carcinoma of the tongue", SquamousCellCarcinoma.tongueCarcinoma),
-            Tile.expand("Carcinoma of the floor of the mouth", SquamousCellCarcinoma.floorCarcinoma),
+            Tile.expand('Tumor Suppressor genes',
+                SquamousCellCarcinoma.tumorSuppression),
+            Tile.expand(
+                'Pre-existing oral lesions', SquamousCellCarcinoma.preExisting),
+            Tile.expand(
+                'Clinical Features', SquamousCellCarcinoma.clinicalFeatures),
+            Tile.expand("Clinical Presentation",
+                SquamousCellCarcinoma.clinicalPresentation,
+                imagePath: 'assets/tumors/image5.jpg'),
+            Tile.expand(
+                "Carcinoma of the lip", SquamousCellCarcinoma.lipCarcinoma),
+            Tile.expand("Carcinoma of the tongue",
+                SquamousCellCarcinoma.tongueCarcinoma),
+            Tile.expand("Carcinoma of the floor of the mouth",
+                SquamousCellCarcinoma.floorCarcinoma),
           ],
         ),
       ),
@@ -297,16 +308,7 @@ class _Tumor6State extends State<Tumor6> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: const Text("Basal Cell Carcinoma"),
-        backgroundColor: Colors.greenAccent,
-        leading: IconButton(
-          onPressed: () {
-            Navigator.pop(context);
-          },
-          icon: const Icon(Icons.arrow_back),
-        ),
-      ),
+      appBar: Tile.appbar("Basal Cell Carcinoma", context),
       body: SingleChildScrollView(
         child: Column(
           children: <Widget>[
@@ -314,7 +316,8 @@ class _Tumor6State extends State<Tumor6> {
             Tile.expand('Origin', BasalCell.origin),
             Tile.expand('Etiology', BasalCell.etiology),
             Tile.expand('Clinical Features', BasalCell.clinicalFeatures),
-            Tile.expand("Presentation", BasalCell.presentation, imagePath: 'assets/tumors/image6.png'),
+            Tile.expand("Presentation", BasalCell.presentation,
+                imagePath: 'assets/tumors/image6.png'),
             Tile.expand("Histopathology", BasalCell.histopathology),
             Tile.expand("Differential Diagnosis", BasalCell.differentialDiagno),
             Tile.expand("Treatment", BasalCell.treatment),
@@ -338,23 +341,15 @@ class _Tumor7State extends State<Tumor7> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: const Text("Verrucous Carcinoma"),
-        backgroundColor: Colors.greenAccent,
-        leading: IconButton(
-          onPressed: () {
-            Navigator.pop(context);
-          },
-          icon: const Icon(Icons.arrow_back),
-        ),
-      ),
+      appBar: Tile.appbar("Verrucous Carcinoma", context),
       body: SingleChildScrollView(
         child: Column(
           children: <Widget>[
             Tile.expand('Definition', Verrucous.definition),
             Tile.expand('Etiology', Verrucous.etiology),
             Tile.expand('Clinical Features', Verrucous.clinicalFeatures),
-            Tile.expand("Presentation", Verrucous.presentation, imagePath: 'assets/tumors/image7.jpg'),
+            Tile.expand("Presentation", Verrucous.presentation,
+                imagePath: 'assets/tumors/image7.jpg'),
             Tile.expand("Histopathology", Verrucous.histo),
             Tile.expand("Differential Diagnosis", Verrucous.diffDiagno),
             Tile.expand("Treatment", Verrucous.treatment),
@@ -377,23 +372,17 @@ class _Tumor8State extends State<Tumor8> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: const Text("Malignant Melanoma"),
-        backgroundColor: Colors.greenAccent,
-        leading: IconButton(
-          onPressed: () {
-            Navigator.pop(context);
-          },
-          icon: const Icon(Icons.arrow_back),
-        ),
-      ),
+      appBar: Tile.appbar("Malignant Melanoma", context),
       body: SingleChildScrollView(
         child: Column(
           children: <Widget>[
             Tile.expand('Definition', MalignantMelanoma.definition),
-            Tile.expand('Clinical Features', MalignantMelanoma.clinicalFeatures),
-            Tile.expand('Clinical Types of Melanoma', MalignantMelanoma.clinicalTypes),
-            Tile.expand("Presentation", MalignantMelanoma.presentation, imagePath: 'assets/tumors/image8.jpg'),
+            Tile.expand(
+                'Clinical Features', MalignantMelanoma.clinicalFeatures),
+            Tile.expand(
+                'Clinical Types of Melanoma', MalignantMelanoma.clinicalTypes),
+            Tile.expand("Presentation", MalignantMelanoma.presentation,
+                imagePath: 'assets/tumors/image8.jpg'),
             Tile.expand("Histopathology", MalignantMelanoma.hist),
             Tile.expand("Differential Diagnosis", MalignantMelanoma.diffDiagno),
             Tile.expand("Treatment", MalignantMelanoma.treatment),
@@ -416,22 +405,14 @@ class _Tumor9State extends State<Tumor9> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: const Text("Fibroma"),
-        backgroundColor: Colors.greenAccent,
-        leading: IconButton(
-          onPressed: () {
-            Navigator.pop(context);
-          },
-          icon: const Icon(Icons.arrow_back),
-        ),
-      ),
+      appBar: Tile.appbar("Fibroma", context),
       body: SingleChildScrollView(
         child: Column(
           children: <Widget>[
             Tile.expand('Definition', Fibroma.definition),
             Tile.expand('Clinical Features', Fibroma.clinicalFeatures),
-            Tile.expand("Clinical Presentation", Fibroma.clinicalPresentation, imagePath: 'assets/tumors/image9.jpg'),
+            Tile.expand("Clinical Presentation", Fibroma.clinicalPresentation,
+                imagePath: 'assets/tumors/image9.jpg'),
             Tile.expand("Histopathology", Fibroma.histo),
             Tile.expand("Differential Diagnosis", Fibroma.diffDiagno),
             Tile.expand("Treatment", Fibroma.treatment),
@@ -454,16 +435,7 @@ class _Tumor10State extends State<Tumor10> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: const Text("Peripheral Ossifying Fibroma"),
-        backgroundColor: Colors.greenAccent,
-        leading: IconButton(
-          onPressed: () {
-            Navigator.pop(context);
-          },
-          icon: const Icon(Icons.arrow_back),
-        ),
-      ),
+      appBar: Tile.appbar("Peripheral Ossifying Fibroma", context),
       body: SingleChildScrollView(
         child: Column(
           children: <Widget>[
@@ -471,9 +443,11 @@ class _Tumor10State extends State<Tumor10> {
             Tile.expand('Origin', PeripheralOssiyingFibroma.origin),
             Tile.expand('Clinical Features',
                 PeripheralOssiyingFibroma.clinicalFeatures),
-            Tile.expand("Presentation", PeripheralOssiyingFibroma.presentation, imagePath: 'assets/tumors/image10.png'),
+            Tile.expand("Presentation", PeripheralOssiyingFibroma.presentation,
+                imagePath: 'assets/tumors/image10.png'),
             Tile.expand("Radiographic Features",
-                PeripheralOssiyingFibroma.radiographicFeatures, imagePath: 'assets/tumors/radiology/peripheral-ossifying.png'),
+                PeripheralOssiyingFibroma.radiographicFeatures,
+                imagePath: 'assets/tumors/radiology/peripheral-ossifying.png'),
             Tile.expand("Histopathology", PeripheralOssiyingFibroma.histo),
             Tile.expand(
                 "Differential Diagnosis", PeripheralOssiyingFibroma.diffDiagno),
@@ -497,25 +471,18 @@ class _Tumor11State extends State<Tumor11> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: const Text("Central Ossifying Fibroma"),
-        backgroundColor: Colors.greenAccent,
-        leading: IconButton(
-          onPressed: () {
-            Navigator.pop(context);
-          },
-          icon: const Icon(Icons.arrow_back),
-        ),
-      ),
+      appBar: Tile.appbar("Central Ossifying Fibroma", context),
       body: SingleChildScrollView(
         child: Column(
           children: <Widget>[
             Tile.expand('Definition', CentralOssifyingFibroma.definition),
             Tile.expand(
                 'Clinical Features', CentralOssifyingFibroma.clinicalFeatures),
-            Tile.expand("Presentation", CentralOssifyingFibroma.presentation, imagePath: 'assets/tumors/image11.png'),
+            Tile.expand("Presentation", CentralOssifyingFibroma.presentation,
+                imagePath: 'assets/tumors/image11.png'),
             Tile.expand("Radiographic Features",
-                CentralOssifyingFibroma.radiographicFeatures, imagePath: 'assets/tumors/radiology/central-Ossifying.png'),
+                CentralOssifyingFibroma.radiographicFeatures,
+                imagePath: 'assets/tumors/radiology/central-Ossifying.png'),
             Tile.expand("Macroscopic Features",
                 CentralOssifyingFibroma.macroscopicFeatures),
             Tile.expand("Histopathology", CentralOssifyingFibroma.histo),
@@ -541,16 +508,7 @@ class _Tumor12State extends State<Tumor12> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: const Text("Peripheral Giant Cell Granuloma"),
-        backgroundColor: Colors.greenAccent,
-        leading: IconButton(
-          onPressed: () {
-            Navigator.pop(context);
-          },
-          icon: const Icon(Icons.arrow_back),
-        ),
-      ),
+      appBar: Tile.appbar("Peripheral Giant Cell Granuloma", context),
       body: SingleChildScrollView(
         child: Column(
           children: <Widget>[
@@ -559,7 +517,8 @@ class _Tumor12State extends State<Tumor12> {
             Tile.expand('Clinical Features',
                 PeripheralGiantCellGranuloma.clinicalFeatures),
             Tile.expand("Clinical Presentation",
-                PeripheralGiantCellGranuloma.clinicalPresentation, imagePath: 'assets/tumors/image12.jpg'),
+                PeripheralGiantCellGranuloma.clinicalPresentation,
+                imagePath: 'assets/tumors/image12.jpg'),
             Tile.expand("Radiographical Features",
                 PeripheralGiantCellGranuloma.radiographicFeatures),
             Tile.expand("Macroscopic Features",
@@ -587,23 +546,15 @@ class _Tumor13State extends State<Tumor13> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: const Text("Central Giant Cell Granuloma"),
-        backgroundColor: Colors.greenAccent,
-        leading: IconButton(
-          onPressed: () {
-            Navigator.pop(context);
-          },
-          icon: const Icon(Icons.arrow_back),
-        ),
-      ),
+      appBar: Tile.appbar("Central Giant Cell Granuloma", context),
       body: SingleChildScrollView(
         child: Column(
           children: <Widget>[
             Tile.expand('Definition', CentralGiantCellGranuloma.definition),
             Tile.expand('Clinical Features',
                 CentralGiantCellGranuloma.clinicalFeatures),
-            Tile.expand("Presentation", CentralGiantCellGranuloma.presentation, imagePath: 'assets/tumors/image13.png'),
+            Tile.expand("Presentation", CentralGiantCellGranuloma.presentation,
+                imagePath: 'assets/tumors/image13.png'),
             Tile.expand("Radiological Features",
                 CentralGiantCellGranuloma.radiologicalFeatures),
             Tile.expand("Histopathology", CentralGiantCellGranuloma.histo),
@@ -630,22 +581,14 @@ class _Tumor14State extends State<Tumor14> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: const Text("Myxoma"),
-        backgroundColor: Colors.greenAccent,
-        leading: IconButton(
-          onPressed: () {
-            Navigator.pop(context);
-          },
-          icon: const Icon(Icons.arrow_back),
-        ),
-      ),
+      appBar: Tile.appbar("Myxoma", context),
       body: SingleChildScrollView(
         child: Column(
           children: <Widget>[
             Tile.expand('Definition', Myxoma.definition),
             Tile.expand('Clinical Features', Myxoma.clinicalFeatures),
-            Tile.expand("Presentation", Myxoma.presentation, imagePath: 'assets/tumors/image14.jpg'),
+            Tile.expand("Presentation", Myxoma.presentation,
+                imagePath: 'assets/tumors/image14.jpg'),
             Tile.expand("Histopathology", Myxoma.histo),
             Tile.expand("Treatment", Myxoma.treatment),
           ],
@@ -667,22 +610,14 @@ class _Tumor15State extends State<Tumor15> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: const Text("Lipoma"),
-        backgroundColor: Colors.greenAccent,
-        leading: IconButton(
-          onPressed: () {
-            Navigator.pop(context);
-          },
-          icon: const Icon(Icons.arrow_back),
-        ),
-      ),
+      appBar: Tile.appbar("Lipoma", context),
       body: SingleChildScrollView(
         child: Column(
           children: <Widget>[
             Tile.expand('Definition', Lipoma.definition),
             Tile.expand('Clinical Features', Lipoma.clinicalFeatures),
-            Tile.expand("Presentation", Lipoma.presentation, imagePath: 'assets/tumors/image15.webp'),
+            Tile.expand("Presentation", Lipoma.presentation,
+                imagePath: 'assets/tumors/image15.webp'),
             Tile.expand("Macroscopic Appearance", Lipoma.macroscopic),
             Tile.expand("Histopathology", Lipoma.histo),
             Tile.expand("Treatment", Lipoma.treatment),
@@ -705,21 +640,13 @@ class _Tumor16State extends State<Tumor16> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: const Text("Hemangiomas"),
-        backgroundColor: Colors.greenAccent,
-        leading: IconButton(
-          onPressed: () {
-            Navigator.pop(context);
-          },
-          icon: const Icon(Icons.arrow_back),
-        ),
-      ),
+      appBar: Tile.appbar("Hemangiomas", context),
       body: SingleChildScrollView(
         child: Column(
           children: <Widget>[
             Tile.expand('Definition', Hemangioma.definition),
-            Tile.expand('Clinical Features', Hemangioma.clinicalFeatures, imagePath: 'assets/tumors/image16.webp'),
+            Tile.expand('Clinical Features', Hemangioma.clinicalFeatures,
+                imagePath: 'assets/tumors/image16.webp'),
             Tile.expand('Growth Pattern', Hemangioma.growthPattern),
             Tile.expand("Hemangiomas of skin and mucous membrane",
                 Hemangioma.skinMucous),
@@ -751,22 +678,14 @@ class _Tumor17State extends State<Tumor17> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: const Text("Lymphangioma"),
-        backgroundColor: Colors.greenAccent,
-        leading: IconButton(
-          onPressed: () {
-            Navigator.pop(context);
-          },
-          icon: const Icon(Icons.arrow_back),
-        ),
-      ),
+      appBar: Tile.appbar("Lymphangioma", context),
       body: SingleChildScrollView(
         child: Column(
           children: <Widget>[
             Tile.expand('Definition', Lymphangioma.definition),
             Tile.expand('Clinical Features', Lymphangioma.clinicalFeatures),
-            Tile.expand("Presentation", Lymphangioma.presentation, imagePath: 'assets/tumors/image17.jpg'),
+            Tile.expand("Presentation", Lymphangioma.presentation,
+                imagePath: 'assets/tumors/image17.jpg'),
             Tile.expand("Histopathology", Lymphangioma.histo),
             Tile.expand("Differential Diagnosis", Lymphangioma.diffDiagno),
             Tile.expand(
@@ -791,24 +710,17 @@ class _Tumor18State extends State<Tumor18> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: const Text("Osteoma"),
-        backgroundColor: Colors.greenAccent,
-        leading: IconButton(
-          onPressed: () {
-            Navigator.pop(context);
-          },
-          icon: const Icon(Icons.arrow_back),
-        ),
-      ),
+      appBar: Tile.appbar("Osteoma", context),
       body: SingleChildScrollView(
         child: Column(
           children: <Widget>[
             Tile.expand('Definition', Osteoma.definition),
             Tile.expand('Types', Osteoma.types),
             Tile.expand('Clinical Features', Osteoma.clinicalFeatures),
-            Tile.expand("Presentation", Osteoma.presentation, imagePath: 'assets/tumors/image18.jpg'),
-            Tile.expand("Radiographic Features", Osteoma.radiographicFeatures, imagePath: 'assets/tumors/radiology/osteoma.png'),
+            Tile.expand("Presentation", Osteoma.presentation,
+                imagePath: 'assets/tumors/image18.jpg'),
+            Tile.expand("Radiographic Features", Osteoma.radiographicFeatures,
+                imagePath: 'assets/tumors/radiology/osteoma.png'),
             Tile.expand("Histopathology", Osteoma.histo),
             Tile.expand("Differential Diagnosis", Osteoma.diffDiagno),
             Tile.expand("Treatment", Osteoma.treatment),
@@ -831,22 +743,14 @@ class _Tumor19State extends State<Tumor19> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: const Text("Chondroma"),
-        backgroundColor: Colors.greenAccent,
-        leading: IconButton(
-          onPressed: () {
-            Navigator.pop(context);
-          },
-          icon: const Icon(Icons.arrow_back),
-        ),
-      ),
+      appBar: Tile.appbar("Chondroma", context),
       body: SingleChildScrollView(
         child: Column(
           children: <Widget>[
             Tile.expand('Definition', Chondroma.definition),
             Tile.expand('Clinical Features', Chondroma.clinicalFeatures),
-            Tile.expand("Presentation", Chondroma.presentation, imagePath: 'assets/tumors/image19.jpg'),
+            Tile.expand("Presentation", Chondroma.presentation,
+                imagePath: 'assets/tumors/image19.jpg'),
             Tile.expand(
                 "Radiographic Features", Chondroma.radiographicFeatures),
             Tile.expand("Histopathology", Chondroma.histo),
@@ -871,23 +775,17 @@ class _Tumor20State extends State<Tumor20> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: const Text("Neurilemmoma"),
-        backgroundColor: Colors.greenAccent,
-        leading: IconButton(
-          onPressed: () {
-            Navigator.pop(context);
-          },
-          icon: const Icon(Icons.arrow_back),
-        ),
-      ),
+      appBar: Tile.appbar("Neurilemmoma", context),
       body: SingleChildScrollView(
         child: Column(
           children: <Widget>[
             Tile.expand('Definition', Neurilemmoma.definition),
             Tile.expand('Clinical Features', Neurilemmoma.clinicalFeatures),
-            Tile.expand("Presentation", Neurilemmoma.presentation, imagePath: 'assets/tumors/image20.jpg'),
-            Tile.expand("Radiographic Features", Neurilemmoma.radiographicFeatures, imagePath: 'assets/tumors/radiology/neurilemmoma.png' ),
+            Tile.expand("Presentation", Neurilemmoma.presentation,
+                imagePath: 'assets/tumors/image20.jpg'),
+            Tile.expand(
+                "Radiographic Features", Neurilemmoma.radiographicFeatures,
+                imagePath: 'assets/tumors/radiology/neurilemmoma.png'),
             Tile.expand("Histopathology", Neurilemmoma.histo),
             Tile.expand("Differential Diagnosis", Neurilemmoma.diffDiagno),
             Tile.expand("Treatment", Neurilemmoma.treatment),
@@ -910,23 +808,17 @@ class _Tumor21State extends State<Tumor21> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: const Text("Neurofibroma"),
-        backgroundColor: Colors.greenAccent,
-        leading: IconButton(
-          onPressed: () {
-            Navigator.pop(context);
-          },
-          icon: const Icon(Icons.arrow_back),
-        ),
-      ),
+      appBar: Tile.appbar("Neurofibroma", context),
       body: SingleChildScrollView(
         child: Column(
           children: <Widget>[
             Tile.expand('Definition', Neurofibroma.definition),
             Tile.expand('Clinical Features', Neurofibroma.clinicalFeatures),
-            Tile.expand("Presentation", Neurofibroma.presentation, imagePath: 'assets/tumors/image21.jpg'),
-            Tile.expand("Radiographic Features", Neurofibroma.radiographicFeatures, imagePath: 'assets/tumors/radiology/neurifibroma.png'),
+            Tile.expand("Presentation", Neurofibroma.presentation,
+                imagePath: 'assets/tumors/image21.jpg'),
+            Tile.expand(
+                "Radiographic Features", Neurofibroma.radiographicFeatures,
+                imagePath: 'assets/tumors/radiology/neurifibroma.png'),
             Tile.expand("Histopathology", Neurofibroma.histo),
             Tile.expand("Treatment", Neurofibroma.treatment),
           ],
@@ -948,22 +840,14 @@ class _Tumor22State extends State<Tumor22> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: const Text("Teratoma"),
-        backgroundColor: Colors.greenAccent,
-        leading: IconButton(
-          onPressed: () {
-            Navigator.pop(context);
-          },
-          icon: const Icon(Icons.arrow_back),
-        ),
-      ),
+      appBar: Tile.appbar("Teratoma", context),
       body: SingleChildScrollView(
         child: Column(
           children: <Widget>[
             Tile.expand('Definition', Teratoma.definition),
             Tile.expand('Origin', Teratoma.origin),
-            Tile.expand('Clinical Features', Teratoma.clinicalFeatures, imagePath: 'assets/tumors/image22.jpg'),
+            Tile.expand('Clinical Features', Teratoma.clinicalFeatures,
+                imagePath: 'assets/tumors/image22.jpg'),
             Tile.expand("Histopathology", Teratoma.histo),
             Tile.expand("Treatment", Teratoma.treatment),
           ],
@@ -985,23 +869,17 @@ class _Tumor23State extends State<Tumor23> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: const Text("Fibrosarcoma"),
-        backgroundColor: Colors.greenAccent,
-        leading: IconButton(
-          onPressed: () {
-            Navigator.pop(context);
-          },
-          icon: const Icon(Icons.arrow_back),
-        ),
-      ),
+      appBar: Tile.appbar("Fibrosarcoma", context),
       body: SingleChildScrollView(
         child: Column(
           children: <Widget>[
             Tile.expand('Definition', FibroSarcoma.definition),
             Tile.expand('Clinical Features', FibroSarcoma.clinicalFeatures),
-            Tile.expand("Presentation", FibroSarcoma.clinicalPresentation, imagePath: 'assets/tumors/image23.jpg'),
-            Tile.expand("Radiographic Features", FibroSarcoma.radiographicFeatures, imagePath: 'assets/tumors/radiology/fibrosarcoma.png'),
+            Tile.expand("Presentation", FibroSarcoma.clinicalPresentation,
+                imagePath: 'assets/tumors/image23.jpg'),
+            Tile.expand(
+                "Radiographic Features", FibroSarcoma.radiographicFeatures,
+                imagePath: 'assets/tumors/radiology/fibrosarcoma.png'),
             Tile.expand("Histopathology", FibroSarcoma.histo),
             Tile.expand("Differential Diagnosis", FibroSarcoma.diffDiagno),
             Tile.expand("Treatment", FibroSarcoma.treatment),
@@ -1024,16 +902,7 @@ class _Tumor24State extends State<Tumor24> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: const Text("Kaposi's Sarcoma"),
-        backgroundColor: Colors.greenAccent,
-        leading: IconButton(
-          onPressed: () {
-            Navigator.pop(context);
-          },
-          icon: const Icon(Icons.arrow_back),
-        ),
-      ),
+      appBar: Tile.appbar("Kaposi's Sarcoma", context),
       body: SingleChildScrollView(
         child: Column(
           children: <Widget>[
@@ -1041,7 +910,8 @@ class _Tumor24State extends State<Tumor24> {
             Tile.expand("Endemic Kaposi's Sarcoma", Kaposi.endemic),
             Tile.expand("Epidemic Kaposi's Sarcoma", Kaposi.epidemic),
             Tile.expand('Etiology', Kaposi.etiology),
-            Tile.expand('Clinical Features', Kaposi.clinicalFeatures, imagePath: 'assets/tumors/image24.jpg'),
+            Tile.expand('Clinical Features', Kaposi.clinicalFeatures,
+                imagePath: 'assets/tumors/image24.jpg'),
             Tile.expand("Histopathology", Kaposi.histo),
             Tile.expand("Differential Diagnosis", Kaposi.diffDiagno),
             Tile.expand("Treatment", Kaposi.treatment),
@@ -1064,23 +934,15 @@ class _Tumor25State extends State<Tumor25> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: const Text("Ewing's Sarcoma"),
-        backgroundColor: Colors.greenAccent,
-        leading: IconButton(
-          onPressed: () {
-            Navigator.pop(context);
-          },
-          icon: const Icon(Icons.arrow_back),
-        ),
-      ),
+      appBar: Tile.appbar("Ewing's Sarcoma", context),
       body: SingleChildScrollView(
         child: Column(
           children: <Widget>[
             Tile.expand('Definition', Ewing.definition),
             Tile.expand('Histogenesis', Ewing.histogenesis),
             Tile.expand('Clinical Features', Ewing.clinicalFeatures),
-            Tile.expand("Presentation", Ewing.presentation, imagePath: 'assets/tumors/image25.jpg'),
+            Tile.expand("Presentation", Ewing.presentation,
+                imagePath: 'assets/tumors/image25.jpg'),
             Tile.expand("Radiographic Features", Ewing.radiographicFeatures),
             Tile.expand("Histopathology", Ewing.histo),
             Tile.expand("Differential Diagnosis", Ewing.diffDiagno),
@@ -1104,16 +966,7 @@ class _Tumor26State extends State<Tumor26> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: const Text("Osteosarcoma"),
-        backgroundColor: Colors.greenAccent,
-        leading: IconButton(
-          onPressed: () {
-            Navigator.pop(context);
-          },
-          icon: const Icon(Icons.arrow_back),
-        ),
-      ),
+      appBar: Tile.appbar("Osteosarcoma", context),
       body: SingleChildScrollView(
         child: Column(
           children: <Widget>[
@@ -1121,8 +974,12 @@ class _Tumor26State extends State<Tumor26> {
             Tile.expand('Etiology', OsteoSarcoma.etiology),
             Tile.expand('Types of Osteosarcoma', OsteoSarcoma.types),
             Tile.expand('Clinical Features', OsteoSarcoma.clinicalFeatures),
-            Tile.expand("Clinical Presentation", OsteoSarcoma.clinicalPresentation, imagePath: 'assets/tumors/image26.webp'),
-            Tile.expand("Radiological Features", OsteoSarcoma.radiologicalFeatures, imagePath: 'assets/tumors/radiology/osteosarcoma.png'),
+            Tile.expand(
+                "Clinical Presentation", OsteoSarcoma.clinicalPresentation,
+                imagePath: 'assets/tumors/image26.webp'),
+            Tile.expand(
+                "Radiological Features", OsteoSarcoma.radiologicalFeatures,
+                imagePath: 'assets/tumors/radiology/osteosarcoma.png'),
             Tile.expand("Histopathology", OsteoSarcoma.histo),
             Tile.expand("Differential Diagnosis", OsteoSarcoma.diffDiagno),
             Tile.expand("Treatment", OsteoSarcoma.treatment),
@@ -1145,22 +1002,14 @@ class _Tumor27State extends State<Tumor27> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: const Text("Hodgkin's Lymphoma"),
-        backgroundColor: Colors.greenAccent,
-        leading: IconButton(
-          onPressed: () {
-            Navigator.pop(context);
-          },
-          icon: const Icon(Icons.arrow_back),
-        ),
-      ),
+      appBar: Tile.appbar("Hodgkin's Lymphoma", context),
       body: SingleChildScrollView(
         child: Column(
           children: <Widget>[
             Tile.expand('Definition', Hodgkin.definition),
             Tile.expand('Clinical Features', Hodgkin.clinicalFeatures),
-            Tile.expand("Clinical Presentation", Hodgkin.clinicalPresentation, imagePath: 'assets/tumors/image27.png'),
+            Tile.expand("Clinical Presentation", Hodgkin.clinicalPresentation,
+                imagePath: 'assets/tumors/image27.png'),
             Tile.expand("Histopathology", Hodgkin.histo),
             Tile.expand("Histopathological Types", Hodgkin.types),
             Tile.expand("Laboratory Investigations", Hodgkin.lab),
@@ -1184,23 +1033,16 @@ class _Tumor28State extends State<Tumor28> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: const Text("Non-Hodgkin's Lymphoma"),
-        backgroundColor: Colors.greenAccent,
-        leading: IconButton(
-          onPressed: () {
-            Navigator.pop(context);
-          },
-          icon: const Icon(Icons.arrow_back),
-        ),
-      ),
+      appBar: Tile.appbar("Non-Hodgkin's Lymphoma", context),
       body: SingleChildScrollView(
         child: Column(
           children: <Widget>[
             Tile.expand('Definition', NHL.definition),
             Tile.expand('Clinical Features', NHL.clinicalFeatures),
-            Tile.expand("Clinical Presentation", NHL.clinicalPresentation, imagePath: 'assets/tumors/image28.jpg'),
-            Tile.expand("Radiology", NHL.radiology, imagePath: 'assets/tumors/radiology/non-hodkins.png'),
+            Tile.expand("Clinical Presentation", NHL.clinicalPresentation,
+                imagePath: 'assets/tumors/image28.jpg'),
+            Tile.expand("Radiology", NHL.radiology,
+                imagePath: 'assets/tumors/radiology/non-hodkins.png'),
             Tile.expand("Histopathology", NHL.histo),
             Tile.expand("Special Investigations", NHL.special),
             Tile.expand("Treatment", NHL.treatment),
@@ -1223,23 +1065,15 @@ class _Tumor29State extends State<Tumor29> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: const Text("Burkitt's Lymphoma"),
-        backgroundColor: Colors.greenAccent,
-        leading: IconButton(
-          onPressed: () {
-            Navigator.pop(context);
-          },
-          icon: const Icon(Icons.arrow_back),
-        ),
-      ),
+      appBar: Tile.appbar("Burkitt's Lymphoma", context),
       body: SingleChildScrollView(
         child: Column(
           children: <Widget>[
             Tile.expand('Definition', Burkitt.definition),
             Tile.expand('Clinical Features', Burkitt.clinicalFeatures),
             Tile.expand('Types', Burkitt.types),
-            Tile.expand("Clinical Presentation", Burkitt.clinicalPresentation, imagePath: 'assets/tumors/image29.png'),
+            Tile.expand("Clinical Presentation", Burkitt.clinicalPresentation,
+                imagePath: 'assets/tumors/image29.png'),
             Tile.expand("Radiology", Burkitt.radiological),
             Tile.expand("Histopathology", Burkitt.histo),
             Tile.expand("Treatment", Burkitt.treatment),
@@ -1262,22 +1096,14 @@ class _Tumor30State extends State<Tumor30> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: const Text("Multiple Myeloma"),
-        backgroundColor: Colors.greenAccent,
-        leading: IconButton(
-          onPressed: () {
-            Navigator.pop(context);
-          },
-          icon: const Icon(Icons.arrow_back),
-        ),
-      ),
+      appBar: Tile.appbar("Multiple Myeloma", context),
       body: SingleChildScrollView(
         child: Column(
           children: <Widget>[
             Tile.expand('Definition', Myeloma.definition),
             Tile.expand('Clinical Features', Myeloma.clinicalFeatures),
-            Tile.expand("Clinical Presentation", Myeloma.clinicalPresentation, imagePath: 'assets/tumors/image30.jpg'),
+            Tile.expand("Clinical Presentation", Myeloma.clinicalPresentation,
+                imagePath: 'assets/tumors/image30.jpg'),
             Tile.expand("Radiological Features", Myeloma.radiologicalFeatures),
             Tile.expand("Histopathology", Myeloma.histo),
             Tile.expand("Treatment", Myeloma.treatment),
