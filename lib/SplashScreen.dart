@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:neoinsight/homepage.dart';
-import 'homepage.dart'; // Import your home screen
 
 class SplashScreen extends StatefulWidget {
   @override

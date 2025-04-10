@@ -1,9 +1,10 @@
+import 'package:flutter_markdown/flutter_markdown.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import "strings.dart";
 
 class Tile {
-  static Widget expand(String head, String description, {String? imagePath}) {
+  /*static Widget expand(String head, String description, {String? imagePath}) {
     return Padding(
       padding: const EdgeInsets.all(8.0),
       child: ExpansionTile(
@@ -25,6 +26,95 @@ class Tile {
                   description,
                   cursorColor: Colors.blue.shade800,
                   textAlign: TextAlign.left,
+                ),
+              ],
+            ),
+          ),
+        ],
+      ),
+    );
+  }*/
+  /*static Widget expand(String head, String description, {dynamic imagePath}) {
+    List<String> images = [];
+
+    if (imagePath is String) {
+      images = [imagePath];
+    } else if (imagePath is List<String>) {
+      images = imagePath;
+    }
+
+    return Padding(
+      padding: const EdgeInsets.all(8.0),
+      child: ExpansionTile(
+        title: Text(
+          head,
+          style: const TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
+        ),
+        children: <Widget>[
+          Padding(
+            padding: const EdgeInsets.all(8.0),
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                for (var path in images)
+                  Padding(
+                    padding: const EdgeInsets.only(bottom: 10.0),
+                    child: Image.asset(path),
+                  ),
+                SelectableText(
+                  description,
+                  cursorColor: Colors.blue.shade800,
+                  textAlign: TextAlign.left,
+                ),
+              ],
+            ),
+          ),
+        ],
+      ),
+    );
+  }*/
+
+  static Widget expand(String head, String description, {dynamic imagePath}) {
+    List<String> images = [];
+
+    if (imagePath is String) {
+      images = [imagePath];
+    } else if (imagePath is List<String>) {
+      images = imagePath;
+    }
+
+    return Padding(
+      padding: const EdgeInsets.all(8.0),
+      child: ExpansionTile(
+        title: Text(
+          head,
+          style: const TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
+        ),
+        children: <Widget>[
+          Padding(
+            padding: const EdgeInsets.all(8.0),
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                for (var path in images)
+                  Padding(
+                    padding: const EdgeInsets.only(bottom: 10.0),
+                    child: Image.asset(path),
+                  ),
+                Align(
+                  alignment: Alignment.topLeft,
+                  child: MarkdownBody(
+                    data: description,
+                    selectable: true,
+                    styleSheet: MarkdownStyleSheet(
+                      p: const TextStyle(fontSize: 16.0),
+                      listBullet: const TextStyle(fontSize: 16.0),
+                      textAlign: WrapAlignment.start, // improves line alignment
+                      listIndent: 20.0, // indent for bullets
+                      strong: const TextStyle(fontWeight: FontWeight.bold),
+                      h1: const TextStyle(fontSize: 22.0, fontWeight: FontWeight.bold),
+                    ),
+                  ),
                 ),
               ],
             ),
@@ -85,7 +175,7 @@ class _Tumor1State extends State<Tumor1> {
       body: SingleChildScrollView(
         child: Column(
           children: <Widget>[
-            Tile.expand('Definition', Papilloma.description),
+            Tile.expand('Introduction', Papilloma.description),
             Tile.expand('Clinical Features', Papilloma.clinicalFeatures),
             Tile.expand("Clinical Presentation", Papilloma.clinicalPresentation,
                 imagePath: 'assets/tumors/image1.png'),
@@ -116,7 +206,7 @@ class _Tumor2State extends State<Tumor2> {
       body: SingleChildScrollView(
         child: Column(
           children: <Widget>[
-            Tile.expand('Definition', Kerato.definition),
+            Tile.expand('Introduction', Kerato.definition),
             Tile.expand('Origin', Kerato.origin),
             Tile.expand('Causes', Kerato.causes),
             Tile.expand('Clinical Features', Kerato.clinicalFeatures),
@@ -156,12 +246,23 @@ class _Tumor3State extends State<Tumor3> {
               child: Column(
                 children: [
                   Image.asset('assets/tumors/image3.png'),
-                  const SelectableText(PigmentedCellularNevus.definition),
+                  MarkdownBody(data: PigmentedCellularNevus.definition,
+                    selectable: true,
+                    styleSheet: MarkdownStyleSheet(
+                      p: const TextStyle(fontSize: 16.0),
+                      listBullet: const TextStyle(fontSize: 16.0),
+                      textAlign: WrapAlignment.start, // improves line alignment
+                      listIndent: 20.0, // indent for bullets
+                      strong: const TextStyle(fontWeight: FontWeight.bold),
+                      h1: const TextStyle(fontSize: 22.0, fontWeight: FontWeight.bold),
+                    ),
+                  ),
                 ],
               ),
             ),
+            Tile.expand("Classification", PigmentedCellularNevus.classfication),
             const Padding(
-              padding: EdgeInsets.only(left: 15, right: 15, top: 0),
+              padding: EdgeInsets.only(left: 15, right: 15, top: 5),
               child: Text(
                 "1. Intradermal (Intramucosal) Nevus :     ",
                 style: TextStyle(
@@ -171,7 +272,7 @@ class _Tumor3State extends State<Tumor3> {
               ),
             ),
             Tile.expand(
-                'Definition', PigmentedCellularNevus.intradermalDescription,
+                'Introduction', PigmentedCellularNevus.intradermalDescription,
                 imagePath: 'assets/tumors/image3.png'),
             Tile.expand('Clinical Features',
                 PigmentedCellularNevus.intradermalClinicalFeatures),
@@ -250,7 +351,7 @@ class _Tumor5State extends State<Tumor5> {
       body: SingleChildScrollView(
         child: Column(
           children: <Widget>[
-            Tile.expand('Definition', SquamousCellCarcinoma.definition),
+            Tile.expand('Introduction', SquamousCellCarcinoma.definition),
             Tile.expand('Epidemiology', SquamousCellCarcinoma.epidemiology),
             Tile.expand(
                 'Etiology of Oral Cancer', SquamousCellCarcinoma.etiology),
@@ -280,7 +381,7 @@ class _Tumor5State extends State<Tumor5> {
                 'Clinical Features', SquamousCellCarcinoma.clinicalFeatures),
             Tile.expand("Clinical Presentation",
                 SquamousCellCarcinoma.clinicalPresentation,
-                imagePath: 'assets/tumors/image5.jpg'),
+                imagePath: ['assets/tumors/image5.jpg', 'assets/tumors/image5(1).jpg']),
             Tile.expand("Radiological Features", "", imagePath: 'assets/tumors/radiology/squamous-cell.png'),
             Tile.expand(
                 "Carcinoma of the lip", SquamousCellCarcinoma.lipCarcinoma),
@@ -312,12 +413,12 @@ class _Tumor6State extends State<Tumor6> {
       body: SingleChildScrollView(
         child: Column(
           children: <Widget>[
-            Tile.expand('Definition', BasalCell.definition),
+            Tile.expand('Introduction', BasalCell.definition),
             Tile.expand('Origin', BasalCell.origin),
             Tile.expand('Etiology', BasalCell.etiology),
             Tile.expand('Clinical Features', BasalCell.clinicalFeatures),
             Tile.expand("Presentation", BasalCell.presentation,
-                imagePath: 'assets/tumors/image6.png'),
+                imagePath: 'assets/tumors/image6.jpg'),
             Tile.expand("Histopathology", BasalCell.histopathology),
             Tile.expand("Differential Diagnosis", BasalCell.differentialDiagno),
             Tile.expand("Treatment", BasalCell.treatment),
@@ -345,7 +446,7 @@ class _Tumor7State extends State<Tumor7> {
       body: SingleChildScrollView(
         child: Column(
           children: <Widget>[
-            Tile.expand('Definition', Verrucous.definition),
+            Tile.expand('Introduction', Verrucous.definition),
             Tile.expand('Etiology', Verrucous.etiology),
             Tile.expand('Clinical Features', Verrucous.clinicalFeatures),
             Tile.expand("Presentation", Verrucous.presentation,
@@ -376,7 +477,7 @@ class _Tumor8State extends State<Tumor8> {
       body: SingleChildScrollView(
         child: Column(
           children: <Widget>[
-            Tile.expand('Definition', MalignantMelanoma.definition),
+            Tile.expand('Introduction', MalignantMelanoma.definition),
             Tile.expand(
                 'Clinical Features', MalignantMelanoma.clinicalFeatures),
             Tile.expand(
@@ -384,7 +485,7 @@ class _Tumor8State extends State<Tumor8> {
             Tile.expand("Presentation", MalignantMelanoma.presentation,
                 imagePath: 'assets/tumors/image8.jpg'),
             Tile.expand("Histopathology", MalignantMelanoma.hist),
-            Tile.expand("Radiological Features", " ", imagePath: "assets/tumors/radiology/malignant-melanoma.png"),
+            Tile.expand("Radiological Features", MalignantMelanoma.radiographicFeatures, imagePath: "assets/tumors/radiology/malignant-melanoma.png"),
             Tile.expand("Differential Diagnosis", MalignantMelanoma.diffDiagno),
             Tile.expand("Treatment", MalignantMelanoma.treatment),
           ],
@@ -410,7 +511,7 @@ class _Tumor9State extends State<Tumor9> {
       body: SingleChildScrollView(
         child: Column(
           children: <Widget>[
-            Tile.expand('Definition', Fibroma.definition),
+            Tile.expand('Introduction', Fibroma.definition),
             Tile.expand('Clinical Features', Fibroma.clinicalFeatures),
             Tile.expand("Clinical Presentation", Fibroma.clinicalPresentation,
                 imagePath: 'assets/tumors/image9.jpg'),
@@ -440,15 +541,14 @@ class _Tumor10State extends State<Tumor10> {
       body: SingleChildScrollView(
         child: Column(
           children: <Widget>[
-            Tile.expand('Definition', PeripheralOssiyingFibroma.definition),
+            Tile.expand('Introduction', PeripheralOssiyingFibroma.definition),
             Tile.expand('Origin', PeripheralOssiyingFibroma.origin),
             Tile.expand('Clinical Features',
                 PeripheralOssiyingFibroma.clinicalFeatures),
             Tile.expand("Presentation", PeripheralOssiyingFibroma.presentation,
                 imagePath: 'assets/tumors/image10.png'),
             Tile.expand("Radiographic Features",
-                PeripheralOssiyingFibroma.radiographicFeatures,
-                imagePath: 'assets/tumors/radiology/peripheral-ossifying.png'),
+                PeripheralOssiyingFibroma.radiographicFeatures),
             Tile.expand("Histopathology", PeripheralOssiyingFibroma.histo),
             Tile.expand(
                 "Differential Diagnosis", PeripheralOssiyingFibroma.diffDiagno),
@@ -476,11 +576,11 @@ class _Tumor11State extends State<Tumor11> {
       body: SingleChildScrollView(
         child: Column(
           children: <Widget>[
-            Tile.expand('Definition', CentralOssifyingFibroma.definition),
+            Tile.expand('Introduction', CentralOssifyingFibroma.definition),
             Tile.expand(
                 'Clinical Features', CentralOssifyingFibroma.clinicalFeatures),
             Tile.expand("Presentation", CentralOssifyingFibroma.presentation,
-                imagePath: 'assets/tumors/image11.png'),
+                imagePath: 'assets/tumors/image11.jpg'),
             Tile.expand("Radiographic Features",
                 CentralOssifyingFibroma.radiographicFeatures,
                 imagePath: 'assets/tumors/radiology/central-Ossifying.png'),
@@ -513,7 +613,7 @@ class _Tumor12State extends State<Tumor12> {
       body: SingleChildScrollView(
         child: Column(
           children: <Widget>[
-            Tile.expand('Definition', PeripheralGiantCellGranuloma.definition),
+            Tile.expand('Introduction', PeripheralGiantCellGranuloma.definition),
             Tile.expand('Origin', PeripheralGiantCellGranuloma.origin),
             Tile.expand('Clinical Features',
                 PeripheralGiantCellGranuloma.clinicalFeatures),
@@ -521,7 +621,7 @@ class _Tumor12State extends State<Tumor12> {
                 PeripheralGiantCellGranuloma.clinicalPresentation,
                 imagePath: 'assets/tumors/image12.jpg'),
             Tile.expand("Radiographical Features",
-                PeripheralGiantCellGranuloma.radiographicFeatures, imagePath: "assets/tumors/radiology/peripheral-giant-cell.png"),
+                PeripheralGiantCellGranuloma.radiographicFeatures, imagePath: ["assets/tumors/radiology/peripheral-giant-cell.jpg", "assets/tumors/radiology/peripheral-giant-cell(1).jpg"]),
             Tile.expand("Macroscopic Features",
                 PeripheralGiantCellGranuloma.macroscopicFeatures),
             Tile.expand("Histopathology", PeripheralGiantCellGranuloma.histo),
@@ -551,15 +651,15 @@ class _Tumor13State extends State<Tumor13> {
       body: SingleChildScrollView(
         child: Column(
           children: <Widget>[
-            Tile.expand('Definition', CentralGiantCellGranuloma.definition),
+            Tile.expand('Introduction', CentralGiantCellGranuloma.definition),
+            Tile.expand("Pathogenesis", CentralGiantCellGranuloma.pathogenesis),
             Tile.expand('Clinical Features',
                 CentralGiantCellGranuloma.clinicalFeatures),
             Tile.expand("Presentation", CentralGiantCellGranuloma.presentation,
                 imagePath: 'assets/tumors/image13.png'),
             Tile.expand("Radiological Features",
-                CentralGiantCellGranuloma.radiologicalFeatures, imagePath: "assets/tumors/radiology/central-giant-cell"),
+                CentralGiantCellGranuloma.radiologicalFeatures, imagePath: "assets/tumors/radiology/central-giant-cell.jpg"),
             Tile.expand("Histopathology", CentralGiantCellGranuloma.histo),
-            Tile.expand("Pathogenesis", CentralGiantCellGranuloma.pathogenesis),
             Tile.expand(
                 "Differential Diagnosis", CentralGiantCellGranuloma.diffDiagno),
             Tile.expand("Treatment", CentralGiantCellGranuloma.treatment),
@@ -586,12 +686,12 @@ class _Tumor14State extends State<Tumor14> {
       body: SingleChildScrollView(
         child: Column(
           children: <Widget>[
-            Tile.expand('Definition', Myxoma.definition),
+            Tile.expand('Introduction', Myxoma.definition),
             Tile.expand('Clinical Features', Myxoma.clinicalFeatures),
             Tile.expand("Presentation", Myxoma.presentation,
                 imagePath: 'assets/tumors/image14.jpg'),
             Tile.expand("Histopathology", Myxoma.histo),
-            Tile.expand("Radiological Features", " ", imagePath: "assets/tumors/radiollogy/myxoma.png"),
+            Tile.expand("Radiological Features", " ", imagePath: "assets/tumors/radiology/myxoma.jpg"),
             Tile.expand("Treatment", Myxoma.treatment),
           ],
         ),
@@ -616,10 +716,10 @@ class _Tumor15State extends State<Tumor15> {
       body: SingleChildScrollView(
         child: Column(
           children: <Widget>[
-            Tile.expand('Definition', Lipoma.definition),
+            Tile.expand('Introduction', Lipoma.definition),
             Tile.expand('Clinical Features', Lipoma.clinicalFeatures),
             Tile.expand("Presentation", Lipoma.presentation,
-                imagePath: 'assets/tumors/image15.webp'),
+                imagePath: ['assets/tumors/image15.jpg', 'assets/tumors/image15(1).jpg']),
             Tile.expand("Macroscopic Appearance", Lipoma.macroscopic),
             Tile.expand("Histopathology", Lipoma.histo),
             Tile.expand("Treatment", Lipoma.treatment),
@@ -646,7 +746,7 @@ class _Tumor16State extends State<Tumor16> {
       body: SingleChildScrollView(
         child: Column(
           children: <Widget>[
-            Tile.expand('Definition', Hemangioma.definition),
+            Tile.expand('Introduction', Hemangioma.definition),
             Tile.expand('Clinical Features', Hemangioma.clinicalFeatures,
                 imagePath: 'assets/tumors/image16.webp'),
             Tile.expand('Growth Pattern', Hemangioma.growthPattern),
@@ -684,7 +784,7 @@ class _Tumor17State extends State<Tumor17> {
       body: SingleChildScrollView(
         child: Column(
           children: <Widget>[
-            Tile.expand('Definition', Lymphangioma.definition),
+            Tile.expand('Introduction', Lymphangioma.definition),
             Tile.expand('Clinical Features', Lymphangioma.clinicalFeatures),
             Tile.expand("Presentation", Lymphangioma.presentation,
                 imagePath: 'assets/tumors/image17.jpg'),
@@ -716,7 +816,7 @@ class _Tumor18State extends State<Tumor18> {
       body: SingleChildScrollView(
         child: Column(
           children: <Widget>[
-            Tile.expand('Definition', Osteoma.definition),
+            Tile.expand('Introduction', Osteoma.definition),
             Tile.expand('Types', Osteoma.types),
             Tile.expand('Clinical Features', Osteoma.clinicalFeatures),
             Tile.expand("Presentation", Osteoma.presentation,
@@ -749,7 +849,7 @@ class _Tumor19State extends State<Tumor19> {
       body: SingleChildScrollView(
         child: Column(
           children: <Widget>[
-            Tile.expand('Definition', Chondroma.definition),
+            Tile.expand('Introduction', Chondroma.definition),
             Tile.expand('Clinical Features', Chondroma.clinicalFeatures),
             Tile.expand("Presentation", Chondroma.presentation,
                 imagePath: 'assets/tumors/image19.jpg'),
@@ -781,7 +881,7 @@ class _Tumor20State extends State<Tumor20> {
       body: SingleChildScrollView(
         child: Column(
           children: <Widget>[
-            Tile.expand('Definition', Neurilemmoma.definition),
+            Tile.expand('Introduction', Neurilemmoma.definition),
             Tile.expand('Clinical Features', Neurilemmoma.clinicalFeatures),
             Tile.expand("Presentation", Neurilemmoma.presentation,
                 imagePath: 'assets/tumors/image20.jpg'),
@@ -814,8 +914,9 @@ class _Tumor21State extends State<Tumor21> {
       body: SingleChildScrollView(
         child: Column(
           children: <Widget>[
-            Tile.expand('Definition', Neurofibroma.definition),
+            Tile.expand('Introduction', Neurofibroma.definition),
             Tile.expand('Clinical Features', Neurofibroma.clinicalFeatures),
+            Tile.expand('Von Recklinghausen disease', Neurofibroma.von),
             Tile.expand("Presentation", Neurofibroma.presentation,
                 imagePath: 'assets/tumors/image21.jpg'),
             Tile.expand(
@@ -846,7 +947,7 @@ class _Tumor22State extends State<Tumor22> {
       body: SingleChildScrollView(
         child: Column(
           children: <Widget>[
-            Tile.expand('Definition', Teratoma.definition),
+            Tile.expand('Introduction', Teratoma.definition),
             Tile.expand('Origin', Teratoma.origin),
             Tile.expand('Clinical Features', Teratoma.clinicalFeatures,
                 imagePath: 'assets/tumors/image22.jpg'),
@@ -875,7 +976,7 @@ class _Tumor23State extends State<Tumor23> {
       body: SingleChildScrollView(
         child: Column(
           children: <Widget>[
-            Tile.expand('Definition', FibroSarcoma.definition),
+            Tile.expand('Introduction', FibroSarcoma.definition),
             Tile.expand('Clinical Features', FibroSarcoma.clinicalFeatures),
             Tile.expand("Presentation", FibroSarcoma.clinicalPresentation,
                 imagePath: 'assets/tumors/image23.jpg'),
@@ -908,7 +1009,7 @@ class _Tumor24State extends State<Tumor24> {
       body: SingleChildScrollView(
         child: Column(
           children: <Widget>[
-            Tile.expand('Definition', Kaposi.definition),
+            Tile.expand('Introduction', Kaposi.definition),
             Tile.expand("Endemic Kaposi's Sarcoma", Kaposi.endemic),
             Tile.expand("Epidemic Kaposi's Sarcoma", Kaposi.epidemic),
             Tile.expand('Etiology', Kaposi.etiology),
@@ -940,12 +1041,12 @@ class _Tumor25State extends State<Tumor25> {
       body: SingleChildScrollView(
         child: Column(
           children: <Widget>[
-            Tile.expand('Definition', Ewing.definition),
+            Tile.expand('Introduction', Ewing.definition),
             Tile.expand('Histogenesis', Ewing.histogenesis),
             Tile.expand('Clinical Features', Ewing.clinicalFeatures),
             Tile.expand("Presentation", Ewing.presentation,
                 imagePath: 'assets/tumors/image25.jpg'),
-            Tile.expand("Radiographic Features", Ewing.radiographicFeatures),
+            Tile.expand("Radiographic Features", Ewing.radiographicFeatures, imagePath: 'assets/tumors/radiology/ewing.jpg'),
             Tile.expand("Histopathology", Ewing.histo),
             Tile.expand("Differential Diagnosis", Ewing.diffDiagno),
             Tile.expand("Treatment", Ewing.treatment),
@@ -972,7 +1073,7 @@ class _Tumor26State extends State<Tumor26> {
       body: SingleChildScrollView(
         child: Column(
           children: <Widget>[
-            Tile.expand('Definition', OsteoSarcoma.definition),
+            Tile.expand('Introduction', OsteoSarcoma.definition),
             Tile.expand('Etiology', OsteoSarcoma.etiology),
             Tile.expand('Types of Osteosarcoma', OsteoSarcoma.types),
             Tile.expand('Clinical Features', OsteoSarcoma.clinicalFeatures),
@@ -981,7 +1082,7 @@ class _Tumor26State extends State<Tumor26> {
                 imagePath: 'assets/tumors/image26.webp'),
             Tile.expand(
                 "Radiological Features", OsteoSarcoma.radiologicalFeatures,
-                imagePath: 'assets/tumors/radiology/osteosarcoma.png'),
+                imagePath: 'assets/tumors/radiology/osteosarcoma.jpg'),
             Tile.expand("Histopathology", OsteoSarcoma.histo),
             Tile.expand("Differential Diagnosis", OsteoSarcoma.diffDiagno),
             Tile.expand("Treatment", OsteoSarcoma.treatment),
@@ -1008,7 +1109,7 @@ class _Tumor27State extends State<Tumor27> {
       body: SingleChildScrollView(
         child: Column(
           children: <Widget>[
-            Tile.expand('Definition', Hodgkin.definition),
+            Tile.expand('Introduction', Hodgkin.definition),
             Tile.expand('Clinical Features', Hodgkin.clinicalFeatures),
             Tile.expand("Clinical Presentation", Hodgkin.clinicalPresentation,
                 imagePath: 'assets/tumors/image27.png'),
@@ -1039,7 +1140,7 @@ class _Tumor28State extends State<Tumor28> {
       body: SingleChildScrollView(
         child: Column(
           children: <Widget>[
-            Tile.expand('Definition', NHL.definition),
+            Tile.expand('Introduction', NHL.definition),
             Tile.expand('Clinical Features', NHL.clinicalFeatures),
             Tile.expand("Clinical Presentation", NHL.clinicalPresentation,
                 imagePath: 'assets/tumors/image28.jpg'),
@@ -1071,7 +1172,7 @@ class _Tumor29State extends State<Tumor29> {
       body: SingleChildScrollView(
         child: Column(
           children: <Widget>[
-            Tile.expand('Definition', Burkitt.definition),
+            Tile.expand('Introduction', Burkitt.definition),
             Tile.expand('Clinical Features', Burkitt.clinicalFeatures),
             Tile.expand('Types', Burkitt.types),
             Tile.expand("Clinical Presentation", Burkitt.clinicalPresentation,
@@ -1102,7 +1203,7 @@ class _Tumor30State extends State<Tumor30> {
       body: SingleChildScrollView(
         child: Column(
           children: <Widget>[
-            Tile.expand('Definition', Myeloma.definition),
+            Tile.expand('Introduction', Myeloma.definition),
             Tile.expand('Clinical Features', Myeloma.clinicalFeatures),
             Tile.expand("Clinical Presentation", Myeloma.clinicalPresentation,
                 imagePath: 'assets/tumors/image30.jpg'),

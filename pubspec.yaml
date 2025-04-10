@@ -16,7 +16,7 @@ publish_to: 'none' # Remove this line if you wish to publish to pub.dev
 # https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
 # In Windows, build-name is used as the major, minor, and patch parts
 # of the product and file versions while build-number is used as the build suffix.
-version: 1.0.0+1
+version: 1.0.0+5
 
 environment:
   sdk: ^3.5.1
@@ -37,6 +37,7 @@ dependencies:
   cupertino_icons: ^1.0.8
   google_nav_bar: ^5.0.6
   flutter_native_splash: ^2.2.0
+  flutter_markdown: ^0.6.10
 
 dev_dependencies:
   flutter_test:
@@ -97,7 +98,9 @@ flutter:
     - assets/tumors/image2.webp
     - assets/tumors/image3.png
     - assets/tumors/image5.jpg
+    - assets/tumors/image5(1).jpg
     - assets/tumors/image6.png
+    - assets/tumors/image6.jpg
     - assets/tumors/image7.jpg
     - assets/tumors/image8.jpg
     - assets/tumors/image9.jpg
@@ -105,8 +108,11 @@ flutter:
     - assets/tumors/image11.png
     - assets/tumors/image12.jpg
     - assets/tumors/image13.png
+    - assets/tumors/image11.jpg
     - assets/tumors/image14.jpg
     - assets/tumors/image15.webp
+    - assets/tumors/image15.jpg
+    - assets/tumors/image15(1).jpg
     - assets/tumors/image16.webp
     - assets/tumors/image17.jpg
     - assets/tumors/image18.jpg
@@ -129,16 +135,21 @@ flutter:
     - assets/tumors/radiology/squamous-cell.png
     - assets/tumors/radiology/peripheral-ossifying.png
     - assets/tumors/radiology/peripheral-giant-cell.png
+    - assets/tumors/radiology/peripheral-giant-cell.jpg
+    - assets/tumors/radiology/peripheral-giant-cell(1).jpg
     - assets/tumors/radiology/osteosarcoma.png
+    - assets/tumors/radiology/osteosarcoma.jpg
     - assets/tumors/radiology/osteoma.png
     - assets/tumors/radiology/non-hodkins.png
     - assets/tumors/radiology/neurilemmoma.png
     - assets/tumors/radiology/neurifibroma.png
-    - assets/tumors/radiology/myxoma.png
+    - assets/tumors/radiology/myxoma.jpg
+    - assets/tumors/radiology/ewing.jpg
     - assets/tumors/radiology/malignant-melanoma.png
     - assets/tumors/radiology/fibrosarcoma.png
     - assets/tumors/radiology/central-Ossifying.png
     - assets/tumors/radiology/central-giant-cell.png
+    - assets/tumors/radiology/central-giant-cell.jpg
     - assets/images/logo.gif
 
   # An image asset can refer to one or more resolution-specific "variants", see
