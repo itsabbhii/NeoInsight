@@ -1,0 +1,469 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AndroidLayouts\">\r\n    <shared>\r\n      <config />\r\n    </shared>\r\n  </component>\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"NONE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"32820dc3-d307-4ba6-b60d-3737475ac014\" name=\"Changes\" comment=\"added new functionalities and updated some images\" />\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"ClangdSettings\">\r\n    <option name=\"formatViaClangd\" value=\"false\" />\r\n  </component>\r\n  <component name=\"FileEditorManager\">\r\n    <leaf>\r\n      <file leaf-file-name=\"main.dart\" pinned=\"false\" current-in-tab=\"true\">\r\n        <entry file=\"file://$PROJECT_DIR$/lib/main.dart\">\r\n          <provider selected=\"true\" editor-type-id=\"text-editor\">\r\n            <state relative-caret-position=\"0\">\r\n              <caret line=\"0\" column=\"0\" lean-forward=\"false\" selection-start-line=\"0\" selection-start-column=\"0\" selection-end-line=\"0\" selection-end-column=\"0\" />\r\n            </state>\r\n          </provider>\r\n        </entry>\r\n      </file>\r\n    </leaf>\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Dart File\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <excluded-from-favorite>\r\n      <branch-storage>\r\n        <map>\r\n          <entry type=\"REMOTE\">\r\n            <value>\r\n              <list>\r\n                <branch-info repo=\"$PROJECT_DIR$\" source=\"origin/main\" />\r\n              </list>\r\n            </value>\r\n          </entry>\r\n        </map>\r\n      </branch-storage>\r\n    </excluded-from-favorite>\r\n    <option name=\"PUSH_TAGS\">\r\n      <GitPushTagMode>\r\n        <option name=\"argument\" value=\"--tags\" />\r\n        <option name=\"title\" value=\"All\" />\r\n      </GitPushTagMode>\r\n    </option>\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"GitHubPullRequestSearchHistory\">{\r\n  &quot;lastFilter&quot;: {\r\n    &quot;state&quot;: &quot;OPEN&quot;,\r\n    &quot;assignee&quot;: &quot;itsabbhii&quot;\r\n  }\r\n}</component>\r\n  <component name=\"GithubPullRequestsUISettings\">{\r\n  &quot;selectedUrlAndAccountId&quot;: {\r\n    &quot;url&quot;: &quot;https://github.com/itsabbhii/NeoInsight.git&quot;,\r\n    &quot;accountId&quot;: &quot;79ff9000-3ee2-403a-ac74-268aa691dabc&quot;\r\n  }\r\n}</component>\r\n  <component name=\"ProjectColorInfo\">{\r\n  &quot;associatedIndex&quot;: 3\r\n}</component>\r\n  <component name=\"ProjectId\" id=\"2m9uUpbmgVeUMnvPGnkaHblBmPC\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\">\r\n    <ConfirmationsSetting value=\"2\" id=\"Add\" />\r\n  </component>\r\n  <component name=\"ProjectView\">\r\n    <navigator currentView=\"ProjectPane\" proportions=\"\" version=\"1\" />\r\n    <panes>\r\n      <pane id=\"ProjectPane\">\r\n        <option name=\"show-excluded-files\" value=\"false\" />\r\n      </pane>\r\n    </panes>\r\n  </component>\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\"><![CDATA[{\r\n  \"keyToString\": {\r\n    \"Flutter.main.dart.executor\": \"Run\",\r\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\r\n    \"RunOnceActivity.cidr.known.project.marker\": \"true\",\r\n    \"RunOnceActivity.readMode.enableVisualFormatting\": \"true\",\r\n    \"cf.first.check.clang-format\": \"false\",\r\n    \"cidr.known.project.marker\": \"true\",\r\n    \"com.google.services.firebase.aqiPopupShown\": \"true\",\r\n    \"dart.analysis.tool.window.visible\": \"false\",\r\n    \"git-widget-placeholder\": \"gh-pages\",\r\n    \"ignore.virus.scanning.warn.message\": \"true\",\r\n    \"io.flutter.reload.alreadyRun\": \"true\",\r\n    \"kotlin-language-version-configured\": \"true\",\r\n    \"last_opened_file_path\": \"C:/Users/Abhinav/Desktop/NeoInsight/neoinsight\",\r\n    \"settings.editor.selected.configurable\": \"device.mirroring\",\r\n    \"show.migrate.to.gradle.popup\": \"false\"\r\n  }\r\n}]]></component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"32820dc3-d307-4ba6-b60d-3737475ac014\" name=\"Changes\" comment=\"\" />\r\n      <created>1726501133727</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1726501133727</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"changed\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1729194386979</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1729194386979</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"changed\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1729194475860</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1729194475860</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"radiology images added\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1729509251133</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1729509251133</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00004\" summary=\"tumor description radiology updated\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1729509719606</created>\r\n      <option name=\"number\" value=\"00004\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1729509719606</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00005\" summary=\"update radiology images\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1729513918065</created>\r\n      <option name=\"number\" value=\"00005\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00005\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1729513918065</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00006\" summary=\"appbar color changed to gradient\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1729516415085</created>\r\n      <option name=\"number\" value=\"00006\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00006\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1729516415085</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00007\" summary=\"appbar color changed to gradient\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1729516468543</created>\r\n      <option name=\"number\" value=\"00007\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00007\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1729516468543</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00008\" summary=\"radiological features added\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1729517873453</created>\r\n      <option name=\"number\" value=\"00008\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00008\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1729517873453</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00009\" summary=\"spalsh screen changes\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1729530853609</created>\r\n      <option name=\"number\" value=\"00009\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00009\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1729530853609</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00010\" summary=\"logo updated\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1729530883836</created>\r\n      <option name=\"number\" value=\"00010\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00010\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1729530883836</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00011\" summary=\"changed\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1729530971639</created>\r\n      <option name=\"number\" value=\"00011\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00011\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1729530971639</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00012\" summary=\"swiping functionality added\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1729531686130</created>\r\n      <option name=\"number\" value=\"00012\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00012\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1729531686130</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00013\" summary=\"added new functionalities and updated some images\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1744307558178</created>\r\n      <option name=\"number\" value=\"00013\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00013\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1744307558178</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"14\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"ToolWindowManager\">\r\n    <editor active=\"true\" />\r\n    <layout>\r\n      <window_info id=\"Project\" active=\"false\" anchor=\"left\" auto_hide=\"false\" internal_type=\"DOCKED\" type=\"DOCKED\" visible=\"true\" show_stripe_button=\"true\" weight=\"0.25\" sideWeight=\"0.5\" order=\"0\" side_tool=\"false\" content_ui=\"combo\" />\r\n    </layout>\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"first commit\" />\r\n    <MESSAGE value=\"done\" />\r\n    <MESSAGE value=\"radiology images added\" />\r\n    <MESSAGE value=\"tumor description radiology updated\" />\r\n    <MESSAGE value=\"update radiology images\" />\r\n    <MESSAGE value=\"appbar color changed to gradient\" />\r\n    <MESSAGE value=\"radiological features added\" />\r\n    <MESSAGE value=\"spalsh screen changes\" />\r\n    <MESSAGE value=\"logo updated\" />\r\n    <MESSAGE value=\"changed\" />\r\n    <MESSAGE value=\"swiping functionality added\" />\r\n    <MESSAGE value=\"added new functionalities and updated some images\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"added new functionalities and updated some images\" />\r\n  </component>\r\n</project>
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 340429f972579e047858d9e039d65554780aafd0)
++++ b/.idea/workspace.xml	(date 1744309718265)
+@@ -9,7 +9,426 @@
+     <option name="autoReloadType" value="NONE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="32820dc3-d307-4ba6-b60d-3737475ac014" name="Changes" comment="added new functionalities and updated some images" />
++    <list default="true" id="32820dc3-d307-4ba6-b60d-3737475ac014" name="Changes" comment="added new functionalities and updated some images">
++      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.metadata" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/analysis_options.yaml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/android/.gitignore" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/android/app/.cxx/Debug/714b4v5j/arm64-v8a/.cmake/api/v1/query/client-agp/cache-v2" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/android/app/.cxx/Debug/714b4v5j/arm64-v8a/.cmake/api/v1/query/client-agp/cmakeFiles-v1" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/android/app/.cxx/Debug/714b4v5j/arm64-v8a/.cmake/api/v1/query/client-agp/codemodel-v2" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/android/app/.cxx/Debug/714b4v5j/arm64-v8a/.cmake/api/v1/reply/cache-v2-1405dcdc15be133e07a2.json" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/android/app/.cxx/Debug/714b4v5j/arm64-v8a/.cmake/api/v1/reply/cmakeFiles-v1-b1ab46c6dbde87d69120.json" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/android/app/.cxx/Debug/714b4v5j/arm64-v8a/.cmake/api/v1/reply/codemodel-v2-77f59997cb64a606e1ae.json" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/android/app/.cxx/Debug/714b4v5j/arm64-v8a/.cmake/api/v1/reply/index-2025-04-06T12-43-25-0896.json" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/android/app/.cxx/Debug/714b4v5j/arm64-v8a/CMakeCache.txt" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/android/app/.cxx/Debug/714b4v5j/arm64-v8a/CMakeFiles/3.18.1-g262b901-dirty/CMakeCCompiler.cmake" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/android/app/.cxx/Debug/714b4v5j/arm64-v8a/CMakeFiles/3.18.1-g262b901-dirty/CMakeCXXCompiler.cmake" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/android/app/.cxx/Debug/714b4v5j/arm64-v8a/CMakeFiles/3.18.1-g262b901-dirty/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/android/app/.cxx/Debug/714b4v5j/arm64-v8a/CMakeFiles/3.18.1-g262b901-dirty/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/android/app/.cxx/Debug/714b4v5j/arm64-v8a/CMakeFiles/3.18.1-g262b901-dirty/CMakeSystem.cmake" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/android/app/.cxx/Debug/714b4v5j/arm64-v8a/CMakeFiles/TargetDirectories.txt" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/android/app/.cxx/Debug/714b4v5j/arm64-v8a/CMakeFiles/cmake.check_cache" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/android/app/.cxx/Debug/714b4v5j/arm64-v8a/CMakeFiles/rules.ninja" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/android/app/.cxx/Debug/714b4v5j/arm64-v8a/android_gradle_build.json" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/android/app/.cxx/Debug/714b4v5j/arm64-v8a/build.ninja" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/android/app/.cxx/Debug/714b4v5j/arm64-v8a/cmake_install.cmake" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/android/app/.cxx/Debug/714b4v5j/arm64-v8a/metadata_generation_command.txt" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/android/app/.cxx/Debug/714b4v5j/arm64-v8a/prefab_config.json" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/android/app/.cxx/Debug/714b4v5j/armeabi-v7a/.cmake/api/v1/query/client-agp/cache-v2" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/android/app/.cxx/Debug/714b4v5j/armeabi-v7a/.cmake/api/v1/query/client-agp/cmakeFiles-v1" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/android/app/.cxx/Debug/714b4v5j/armeabi-v7a/.cmake/api/v1/query/client-agp/codemodel-v2" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/android/app/.cxx/Debug/714b4v5j/armeabi-v7a/.cmake/api/v1/reply/cache-v2-be457e6ebd2b28e23cb0.json" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/android/app/.cxx/Debug/714b4v5j/armeabi-v7a/.cmake/api/v1/reply/cmakeFiles-v1-13a457a80029a7896085.json" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/android/app/.cxx/Debug/714b4v5j/armeabi-v7a/.cmake/api/v1/reply/codemodel-v2-93f936fb37dd931faf2f.json" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/android/app/.cxx/Debug/714b4v5j/armeabi-v7a/.cmake/api/v1/reply/index-2025-04-06T12-45-30-0931.json" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/android/app/.cxx/Debug/714b4v5j/armeabi-v7a/CMakeCache.txt" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/android/app/.cxx/Debug/714b4v5j/armeabi-v7a/CMakeFiles/3.18.1-g262b901-dirty/CMakeCCompiler.cmake" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/android/app/.cxx/Debug/714b4v5j/armeabi-v7a/CMakeFiles/3.18.1-g262b901-dirty/CMakeCXXCompiler.cmake" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/android/app/.cxx/Debug/714b4v5j/armeabi-v7a/CMakeFiles/3.18.1-g262b901-dirty/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/android/app/.cxx/Debug/714b4v5j/armeabi-v7a/CMakeFiles/3.18.1-g262b901-dirty/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/android/app/.cxx/Debug/714b4v5j/armeabi-v7a/CMakeFiles/3.18.1-g262b901-dirty/CMakeSystem.cmake" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/android/app/.cxx/Debug/714b4v5j/armeabi-v7a/CMakeFiles/TargetDirectories.txt" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/android/app/.cxx/Debug/714b4v5j/armeabi-v7a/CMakeFiles/cmake.check_cache" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/android/app/.cxx/Debug/714b4v5j/armeabi-v7a/CMakeFiles/rules.ninja" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/android/app/.cxx/Debug/714b4v5j/armeabi-v7a/android_gradle_build.json" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/android/app/.cxx/Debug/714b4v5j/armeabi-v7a/build.ninja" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/android/app/.cxx/Debug/714b4v5j/armeabi-v7a/cmake_install.cmake" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/android/app/.cxx/Debug/714b4v5j/armeabi-v7a/metadata_generation_command.txt" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/android/app/.cxx/Debug/714b4v5j/armeabi-v7a/prefab_config.json" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/android/app/.cxx/Debug/714b4v5j/x86/.cmake/api/v1/query/client-agp/cache-v2" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/android/app/.cxx/Debug/714b4v5j/x86/.cmake/api/v1/query/client-agp/cmakeFiles-v1" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/android/app/.cxx/Debug/714b4v5j/x86/.cmake/api/v1/query/client-agp/codemodel-v2" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/android/app/.cxx/Debug/714b4v5j/x86/.cmake/api/v1/reply/cache-v2-88d4af5c8659dbcafbf5.json" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/android/app/.cxx/Debug/714b4v5j/x86/.cmake/api/v1/reply/cmakeFiles-v1-97775388172bba985358.json" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/android/app/.cxx/Debug/714b4v5j/x86/.cmake/api/v1/reply/codemodel-v2-3f94d7f088c23700e3f9.json" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/android/app/.cxx/Debug/714b4v5j/x86/.cmake/api/v1/reply/index-2025-04-06T12-45-35-0789.json" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/android/app/.cxx/Debug/714b4v5j/x86/CMakeCache.txt" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/android/app/.cxx/Debug/714b4v5j/x86/CMakeFiles/3.18.1-g262b901-dirty/CMakeCCompiler.cmake" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/android/app/.cxx/Debug/714b4v5j/x86/CMakeFiles/3.18.1-g262b901-dirty/CMakeCXXCompiler.cmake" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/android/app/.cxx/Debug/714b4v5j/x86/CMakeFiles/3.18.1-g262b901-dirty/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/android/app/.cxx/Debug/714b4v5j/x86/CMakeFiles/3.18.1-g262b901-dirty/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/android/app/.cxx/Debug/714b4v5j/x86/CMakeFiles/3.18.1-g262b901-dirty/CMakeSystem.cmake" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/android/app/.cxx/Debug/714b4v5j/x86/CMakeFiles/TargetDirectories.txt" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/android/app/.cxx/Debug/714b4v5j/x86/CMakeFiles/cmake.check_cache" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/android/app/.cxx/Debug/714b4v5j/x86/CMakeFiles/rules.ninja" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/android/app/.cxx/Debug/714b4v5j/x86/android_gradle_build.json" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/android/app/.cxx/Debug/714b4v5j/x86/build.ninja" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/android/app/.cxx/Debug/714b4v5j/x86/cmake_install.cmake" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/android/app/.cxx/Debug/714b4v5j/x86/metadata_generation_command.txt" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/android/app/.cxx/Debug/714b4v5j/x86/prefab_config.json" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/android/app/.cxx/Debug/714b4v5j/x86_64/.cmake/api/v1/query/client-agp/cache-v2" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/android/app/.cxx/Debug/714b4v5j/x86_64/.cmake/api/v1/query/client-agp/cmakeFiles-v1" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/android/app/.cxx/Debug/714b4v5j/x86_64/.cmake/api/v1/query/client-agp/codemodel-v2" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/android/app/.cxx/Debug/714b4v5j/x86_64/.cmake/api/v1/reply/cache-v2-15404c9418f9f1a10da4.json" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/android/app/.cxx/Debug/714b4v5j/x86_64/.cmake/api/v1/reply/cmakeFiles-v1-db3de106171050575c7b.json" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/android/app/.cxx/Debug/714b4v5j/x86_64/.cmake/api/v1/reply/codemodel-v2-0ce7f351edea1455f122.json" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/android/app/.cxx/Debug/714b4v5j/x86_64/.cmake/api/v1/reply/index-2025-04-06T12-45-39-0708.json" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/android/app/.cxx/Debug/714b4v5j/x86_64/CMakeCache.txt" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/android/app/.cxx/Debug/714b4v5j/x86_64/CMakeFiles/3.18.1-g262b901-dirty/CMakeCCompiler.cmake" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/android/app/.cxx/Debug/714b4v5j/x86_64/CMakeFiles/3.18.1-g262b901-dirty/CMakeCXXCompiler.cmake" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/android/app/.cxx/Debug/714b4v5j/x86_64/CMakeFiles/3.18.1-g262b901-dirty/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/android/app/.cxx/Debug/714b4v5j/x86_64/CMakeFiles/3.18.1-g262b901-dirty/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/android/app/.cxx/Debug/714b4v5j/x86_64/CMakeFiles/3.18.1-g262b901-dirty/CMakeSystem.cmake" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/android/app/.cxx/Debug/714b4v5j/x86_64/CMakeFiles/TargetDirectories.txt" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/android/app/.cxx/Debug/714b4v5j/x86_64/CMakeFiles/cmake.check_cache" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/android/app/.cxx/Debug/714b4v5j/x86_64/CMakeFiles/rules.ninja" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/android/app/.cxx/Debug/714b4v5j/x86_64/android_gradle_build.json" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/android/app/.cxx/Debug/714b4v5j/x86_64/build.ninja" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/android/app/.cxx/Debug/714b4v5j/x86_64/cmake_install.cmake" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/android/app/.cxx/Debug/714b4v5j/x86_64/metadata_generation_command.txt" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/android/app/.cxx/Debug/714b4v5j/x86_64/prefab_config.json" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/android/app/.cxx/RelWithDebInfo/1w543t15/arm64-v8a/.cmake/api/v1/query/client-agp/cache-v2" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/android/app/.cxx/RelWithDebInfo/1w543t15/arm64-v8a/.cmake/api/v1/query/client-agp/cmakeFiles-v1" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/android/app/.cxx/RelWithDebInfo/1w543t15/arm64-v8a/.cmake/api/v1/query/client-agp/codemodel-v2" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/android/app/.cxx/RelWithDebInfo/1w543t15/arm64-v8a/.cmake/api/v1/reply/cache-v2-8728f6bb287bb260fc70.json" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/android/app/.cxx/RelWithDebInfo/1w543t15/arm64-v8a/.cmake/api/v1/reply/cmakeFiles-v1-9373e590a333f0126dd9.json" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/android/app/.cxx/RelWithDebInfo/1w543t15/arm64-v8a/.cmake/api/v1/reply/codemodel-v2-4f5dfe729a49cebd26a2.json" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/android/app/.cxx/RelWithDebInfo/1w543t15/arm64-v8a/.cmake/api/v1/reply/index-2025-04-10T17-29-40-0026.json" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/android/app/.cxx/RelWithDebInfo/1w543t15/arm64-v8a/CMakeCache.txt" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/android/app/.cxx/RelWithDebInfo/1w543t15/arm64-v8a/CMakeFiles/3.18.1-g262b901-dirty/CMakeCCompiler.cmake" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/android/app/.cxx/RelWithDebInfo/1w543t15/arm64-v8a/CMakeFiles/3.18.1-g262b901-dirty/CMakeCXXCompiler.cmake" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/android/app/.cxx/RelWithDebInfo/1w543t15/arm64-v8a/CMakeFiles/3.18.1-g262b901-dirty/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/android/app/.cxx/RelWithDebInfo/1w543t15/arm64-v8a/CMakeFiles/3.18.1-g262b901-dirty/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/android/app/.cxx/RelWithDebInfo/1w543t15/arm64-v8a/CMakeFiles/3.18.1-g262b901-dirty/CMakeSystem.cmake" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/android/app/.cxx/RelWithDebInfo/1w543t15/arm64-v8a/CMakeFiles/TargetDirectories.txt" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/android/app/.cxx/RelWithDebInfo/1w543t15/arm64-v8a/CMakeFiles/cmake.check_cache" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/android/app/.cxx/RelWithDebInfo/1w543t15/arm64-v8a/CMakeFiles/rules.ninja" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/android/app/.cxx/RelWithDebInfo/1w543t15/arm64-v8a/android_gradle_build.json" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/android/app/.cxx/RelWithDebInfo/1w543t15/arm64-v8a/build.ninja" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/android/app/.cxx/RelWithDebInfo/1w543t15/arm64-v8a/cmake_install.cmake" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/android/app/.cxx/RelWithDebInfo/1w543t15/arm64-v8a/metadata_generation_command.txt" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/android/app/.cxx/RelWithDebInfo/1w543t15/arm64-v8a/prefab_config.json" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/android/app/.cxx/RelWithDebInfo/1w543t15/armeabi-v7a/.cmake/api/v1/query/client-agp/cache-v2" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/android/app/.cxx/RelWithDebInfo/1w543t15/armeabi-v7a/.cmake/api/v1/query/client-agp/cmakeFiles-v1" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/android/app/.cxx/RelWithDebInfo/1w543t15/armeabi-v7a/.cmake/api/v1/query/client-agp/codemodel-v2" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/android/app/.cxx/RelWithDebInfo/1w543t15/armeabi-v7a/.cmake/api/v1/reply/cache-v2-8deb0c755bbcec1323b3.json" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/android/app/.cxx/RelWithDebInfo/1w543t15/armeabi-v7a/.cmake/api/v1/reply/cmakeFiles-v1-90c400ccd4e25351356a.json" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/android/app/.cxx/RelWithDebInfo/1w543t15/armeabi-v7a/.cmake/api/v1/reply/codemodel-v2-0d1ea883fd1b438f43db.json" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/android/app/.cxx/RelWithDebInfo/1w543t15/armeabi-v7a/.cmake/api/v1/reply/index-2025-04-10T17-29-44-0766.json" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/android/app/.cxx/RelWithDebInfo/1w543t15/armeabi-v7a/CMakeCache.txt" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/android/app/.cxx/RelWithDebInfo/1w543t15/armeabi-v7a/CMakeFiles/3.18.1-g262b901-dirty/CMakeCCompiler.cmake" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/android/app/.cxx/RelWithDebInfo/1w543t15/armeabi-v7a/CMakeFiles/3.18.1-g262b901-dirty/CMakeCXXCompiler.cmake" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/android/app/.cxx/RelWithDebInfo/1w543t15/armeabi-v7a/CMakeFiles/3.18.1-g262b901-dirty/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/android/app/.cxx/RelWithDebInfo/1w543t15/armeabi-v7a/CMakeFiles/3.18.1-g262b901-dirty/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/android/app/.cxx/RelWithDebInfo/1w543t15/armeabi-v7a/CMakeFiles/3.18.1-g262b901-dirty/CMakeSystem.cmake" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/android/app/.cxx/RelWithDebInfo/1w543t15/armeabi-v7a/CMakeFiles/TargetDirectories.txt" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/android/app/.cxx/RelWithDebInfo/1w543t15/armeabi-v7a/CMakeFiles/cmake.check_cache" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/android/app/.cxx/RelWithDebInfo/1w543t15/armeabi-v7a/CMakeFiles/rules.ninja" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/android/app/.cxx/RelWithDebInfo/1w543t15/armeabi-v7a/android_gradle_build.json" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/android/app/.cxx/RelWithDebInfo/1w543t15/armeabi-v7a/build.ninja" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/android/app/.cxx/RelWithDebInfo/1w543t15/armeabi-v7a/cmake_install.cmake" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/android/app/.cxx/RelWithDebInfo/1w543t15/armeabi-v7a/metadata_generation_command.txt" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/android/app/.cxx/RelWithDebInfo/1w543t15/armeabi-v7a/prefab_config.json" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/android/app/.cxx/RelWithDebInfo/1w543t15/x86/.cmake/api/v1/query/client-agp/cache-v2" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/android/app/.cxx/RelWithDebInfo/1w543t15/x86/.cmake/api/v1/query/client-agp/cmakeFiles-v1" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/android/app/.cxx/RelWithDebInfo/1w543t15/x86/.cmake/api/v1/query/client-agp/codemodel-v2" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/android/app/.cxx/RelWithDebInfo/1w543t15/x86/.cmake/api/v1/reply/cache-v2-d72ead4aabbc1cfbf42a.json" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/android/app/.cxx/RelWithDebInfo/1w543t15/x86/.cmake/api/v1/reply/cmakeFiles-v1-1b89ee576038725f9842.json" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/android/app/.cxx/RelWithDebInfo/1w543t15/x86/.cmake/api/v1/reply/codemodel-v2-69b26d6486a4534195cc.json" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/android/app/.cxx/RelWithDebInfo/1w543t15/x86/.cmake/api/v1/reply/index-2025-04-10T17-29-49-0298.json" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/android/app/.cxx/RelWithDebInfo/1w543t15/x86/CMakeCache.txt" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/android/app/.cxx/RelWithDebInfo/1w543t15/x86/CMakeFiles/3.18.1-g262b901-dirty/CMakeCCompiler.cmake" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/android/app/.cxx/RelWithDebInfo/1w543t15/x86/CMakeFiles/3.18.1-g262b901-dirty/CMakeCXXCompiler.cmake" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/android/app/.cxx/RelWithDebInfo/1w543t15/x86/CMakeFiles/3.18.1-g262b901-dirty/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/android/app/.cxx/RelWithDebInfo/1w543t15/x86/CMakeFiles/3.18.1-g262b901-dirty/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/android/app/.cxx/RelWithDebInfo/1w543t15/x86/CMakeFiles/3.18.1-g262b901-dirty/CMakeSystem.cmake" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/android/app/.cxx/RelWithDebInfo/1w543t15/x86/CMakeFiles/TargetDirectories.txt" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/android/app/.cxx/RelWithDebInfo/1w543t15/x86/CMakeFiles/cmake.check_cache" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/android/app/.cxx/RelWithDebInfo/1w543t15/x86/CMakeFiles/rules.ninja" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/android/app/.cxx/RelWithDebInfo/1w543t15/x86/android_gradle_build.json" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/android/app/.cxx/RelWithDebInfo/1w543t15/x86/build.ninja" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/android/app/.cxx/RelWithDebInfo/1w543t15/x86/cmake_install.cmake" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/android/app/.cxx/RelWithDebInfo/1w543t15/x86/metadata_generation_command.txt" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/android/app/.cxx/RelWithDebInfo/1w543t15/x86/prefab_config.json" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/android/app/.cxx/RelWithDebInfo/1w543t15/x86_64/.cmake/api/v1/query/client-agp/cache-v2" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/android/app/.cxx/RelWithDebInfo/1w543t15/x86_64/.cmake/api/v1/query/client-agp/cmakeFiles-v1" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/android/app/.cxx/RelWithDebInfo/1w543t15/x86_64/.cmake/api/v1/query/client-agp/codemodel-v2" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/android/app/.cxx/RelWithDebInfo/1w543t15/x86_64/.cmake/api/v1/reply/cache-v2-bb1fd071b80770100114.json" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/android/app/.cxx/RelWithDebInfo/1w543t15/x86_64/.cmake/api/v1/reply/cmakeFiles-v1-a62048527cfe21ac3d85.json" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/android/app/.cxx/RelWithDebInfo/1w543t15/x86_64/.cmake/api/v1/reply/codemodel-v2-22efbca6559d0f5c2e16.json" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/android/app/.cxx/RelWithDebInfo/1w543t15/x86_64/.cmake/api/v1/reply/index-2025-04-10T17-29-58-0222.json" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/android/app/.cxx/RelWithDebInfo/1w543t15/x86_64/CMakeCache.txt" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/android/app/.cxx/RelWithDebInfo/1w543t15/x86_64/CMakeFiles/3.18.1-g262b901-dirty/CMakeCCompiler.cmake" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/android/app/.cxx/RelWithDebInfo/1w543t15/x86_64/CMakeFiles/3.18.1-g262b901-dirty/CMakeCXXCompiler.cmake" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/android/app/.cxx/RelWithDebInfo/1w543t15/x86_64/CMakeFiles/3.18.1-g262b901-dirty/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/android/app/.cxx/RelWithDebInfo/1w543t15/x86_64/CMakeFiles/3.18.1-g262b901-dirty/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/android/app/.cxx/RelWithDebInfo/1w543t15/x86_64/CMakeFiles/3.18.1-g262b901-dirty/CMakeSystem.cmake" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/android/app/.cxx/RelWithDebInfo/1w543t15/x86_64/CMakeFiles/TargetDirectories.txt" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/android/app/.cxx/RelWithDebInfo/1w543t15/x86_64/CMakeFiles/cmake.check_cache" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/android/app/.cxx/RelWithDebInfo/1w543t15/x86_64/CMakeFiles/rules.ninja" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/android/app/.cxx/RelWithDebInfo/1w543t15/x86_64/android_gradle_build.json" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/android/app/.cxx/RelWithDebInfo/1w543t15/x86_64/build.ninja" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/android/app/.cxx/RelWithDebInfo/1w543t15/x86_64/cmake_install.cmake" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/android/app/.cxx/RelWithDebInfo/1w543t15/x86_64/metadata_generation_command.txt" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/android/app/.cxx/RelWithDebInfo/1w543t15/x86_64/prefab_config.json" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/android/app/build.gradle" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/android/app/src/debug/AndroidManifest.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/android/app/src/main/AndroidManifest.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/android/app/src/main/kotlin/com/example/neoinsight/MainActivity.kt" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/android/app/src/main/res/drawable-hdpi/splash.png" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/android/app/src/main/res/drawable-mdpi/splash.png" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/android/app/src/main/res/drawable-v21/background.png" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/android/app/src/main/res/drawable-v21/launch_background.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/android/app/src/main/res/drawable-xhdpi/splash.png" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/android/app/src/main/res/drawable-xxhdpi/splash.png" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/android/app/src/main/res/drawable-xxxhdpi/splash.png" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/android/app/src/main/res/drawable/background.png" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/android/app/src/main/res/drawable/launch_background.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/android/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/android/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/android/app/src/main/res/values-night-v31/styles.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/android/app/src/main/res/values-night/styles.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/android/app/src/main/res/values-v31/styles.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/android/app/src/main/res/values/styles.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/android/app/src/profile/AndroidManifest.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/android/build.gradle" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/android/gradle.properties" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/android/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/android/settings.gradle" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/assets/images/Designer.png" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/assets/images/logo-72px.gif" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/assets/images/logo.gif" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/assets/images/tumor1.png" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/assets/images/tumor10.png" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/assets/images/tumor11.png" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/assets/images/tumor12.png" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/assets/images/tumor13.png" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/assets/images/tumor14.png" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/assets/images/tumor15.png" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/assets/images/tumor16.png" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/assets/images/tumor17.png" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/assets/images/tumor18.png" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/assets/images/tumor19.png" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/assets/images/tumor2.png" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/assets/images/tumor20.png" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/assets/images/tumor21.png" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/assets/images/tumor22.png" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/assets/images/tumor23.png" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/assets/images/tumor24.png" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/assets/images/tumor25.png" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/assets/images/tumor26.png" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/assets/images/tumor27.png" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/assets/images/tumor28.png" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/assets/images/tumor29.png" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/assets/images/tumor3.png" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/assets/images/tumor30.png" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/assets/images/tumor4.png" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/assets/images/tumor5.png" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/assets/images/tumor6.png" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/assets/images/tumor7.png" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/assets/images/tumor8.png" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/assets/images/tumor9.png" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/assets/tumors/home.png" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/assets/tumors/image1.png" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/assets/tumors/image10.png" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/assets/tumors/image11.jpg" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/assets/tumors/image11.png" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/assets/tumors/image12.jpg" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/assets/tumors/image13.png" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/assets/tumors/image14.jpg" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/assets/tumors/image15(1).jpg" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/assets/tumors/image15.jpg" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/assets/tumors/image15.webp" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/assets/tumors/image16.webp" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/assets/tumors/image17.jpg" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/assets/tumors/image18.jpg" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/assets/tumors/image19.jpg" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/assets/tumors/image2.webp" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/assets/tumors/image20.jpg" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/assets/tumors/image21.jpg" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/assets/tumors/image22.jpg" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/assets/tumors/image23.jpg" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/assets/tumors/image24.jpg" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/assets/tumors/image25.jpg" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/assets/tumors/image26.webp" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/assets/tumors/image27.png" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/assets/tumors/image28.jpg" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/assets/tumors/image29.png" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/assets/tumors/image3.png" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/assets/tumors/image30.jpg" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/assets/tumors/image5(1).jpg" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/assets/tumors/image5.jpg" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/assets/tumors/image6.jpg" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/assets/tumors/image6.png" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/assets/tumors/image7.jpg" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/assets/tumors/image8.jpg" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/assets/tumors/image9.jpg" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/assets/tumors/people.png" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/assets/tumors/radiology/central-Ossifying.png" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/assets/tumors/radiology/central-giant-cell.jpg" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/assets/tumors/radiology/central-giant-cell.png" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/assets/tumors/radiology/ewing.jpg" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/assets/tumors/radiology/fibrosarcoma.png" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/assets/tumors/radiology/malignant-melanoma.png" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/assets/tumors/radiology/myxoma.jpg" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/assets/tumors/radiology/myxoma.png" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/assets/tumors/radiology/neurifibroma.png" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/assets/tumors/radiology/neurilemmoma.png" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/assets/tumors/radiology/non-hodkins.png" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/assets/tumors/radiology/osteoma.png" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/assets/tumors/radiology/osteosarcoma.jpg" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/assets/tumors/radiology/osteosarcoma.png" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/assets/tumors/radiology/peripheral-giant-cell(1).jpg" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/assets/tumors/radiology/peripheral-giant-cell.jpg" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/assets/tumors/radiology/peripheral-giant-cell.png" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/assets/tumors/radiology/peripheral-ossifying.png" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/assets/tumors/radiology/squamous-cell.png" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/assets/tumors/tumor.png" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/ios/.gitignore" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/ios/Flutter/AppFrameworkInfo.plist" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/ios/Flutter/Debug.xcconfig" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/ios/Flutter/Generated.xcconfig" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/ios/Flutter/Release.xcconfig" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/ios/Flutter/flutter_export_environment.sh" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/ios/Runner.xcodeproj/project.pbxproj" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/ios/Runner.xcodeproj/project.xcworkspace/contents.xcworkspacedata" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/ios/Runner.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/ios/Runner.xcodeproj/project.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/ios/Runner.xcodeproj/xcshareddata/xcschemes/Runner.xcscheme" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/ios/Runner.xcworkspace/contents.xcworkspacedata" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/ios/Runner.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/ios/Runner.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/ios/Runner/AppDelegate.swift" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/AppIcon.appiconset/Contents.json" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-1024x1024@1x.png" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@1x.png" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@2x.png" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@3x.png" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@1x.png" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@2x.png" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@3x.png" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@1x.png" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@2x.png" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@3x.png" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-60x60@2x.png" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-60x60@3x.png" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-76x76@1x.png" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-76x76@2x.png" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-83.5x83.5@2x.png" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/LaunchBackground.imageset/Contents.json" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/LaunchBackground.imageset/background.png" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/LaunchImage.imageset/Contents.json" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage.png" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage@2x.png" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage@3x.png" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/LaunchImage.imageset/README.md" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/ios/Runner/Base.lproj/LaunchScreen.storyboard" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/ios/Runner/Base.lproj/Main.storyboard" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/ios/Runner/GeneratedPluginRegistrant.h" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/ios/Runner/GeneratedPluginRegistrant.m" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/ios/Runner/Info.plist" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/ios/Runner/Runner-Bridging-Header.h" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/ios/RunnerTests/RunnerTests.swift" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/lib/CreditsPage.dart" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/lib/IntroPage.dart" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/lib/SplashScreen.dart" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/lib/TumorDescription.dart" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/lib/TumorsPage.dart" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/lib/homepage.dart" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/lib/main.dart" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/lib/strings.dart" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/linux/.gitignore" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/linux/CMakeLists.txt" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/linux/flutter/CMakeLists.txt" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/linux/flutter/generated_plugin_registrant.cc" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/linux/flutter/generated_plugin_registrant.h" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/linux/flutter/generated_plugins.cmake" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/linux/main.cc" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/linux/my_application.cc" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/linux/my_application.h" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/macos/.gitignore" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/macos/Flutter/Flutter-Debug.xcconfig" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/macos/Flutter/Flutter-Release.xcconfig" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/macos/Flutter/GeneratedPluginRegistrant.swift" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/macos/Flutter/ephemeral/Flutter-Generated.xcconfig" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/macos/Flutter/ephemeral/flutter_export_environment.sh" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/macos/Runner.xcodeproj/project.pbxproj" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/macos/Runner.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/macos/Runner.xcodeproj/xcshareddata/xcschemes/Runner.xcscheme" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/macos/Runner.xcworkspace/contents.xcworkspacedata" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/macos/Runner.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/macos/Runner/AppDelegate.swift" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/macos/Runner/Assets.xcassets/AppIcon.appiconset/Contents.json" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_1024.png" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_128.png" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_16.png" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_256.png" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_32.png" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_512.png" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_64.png" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/macos/Runner/Base.lproj/MainMenu.xib" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/macos/Runner/Configs/AppInfo.xcconfig" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/macos/Runner/Configs/Debug.xcconfig" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/macos/Runner/Configs/Release.xcconfig" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/macos/Runner/Configs/Warnings.xcconfig" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/macos/Runner/DebugProfile.entitlements" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/macos/Runner/Info.plist" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/macos/Runner/MainFlutterWindow.swift" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/macos/Runner/Release.entitlements" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/macos/RunnerTests/RunnerTests.swift" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/pubspec.lock" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/test/widget_test.dart" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/web/favicon.png" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/web/icons/Icon-192.png" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/web/icons/Icon-512.png" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/web/icons/Icon-maskable-192.png" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/web/icons/Icon-maskable-512.png" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/web/index.html" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/web/manifest.json" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/web/splash/img/dark-1x.png" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/web/splash/img/dark-2x.png" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/web/splash/img/dark-3x.png" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/web/splash/img/dark-4x.png" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/web/splash/img/light-1x.png" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/web/splash/img/light-2x.png" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/web/splash/img/light-3x.png" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/web/splash/img/light-4x.png" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/windows/.gitignore" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/windows/CMakeLists.txt" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/windows/flutter/CMakeLists.txt" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/windows/flutter/generated_plugin_registrant.cc" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/windows/flutter/generated_plugin_registrant.h" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/windows/flutter/generated_plugins.cmake" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/windows/runner/CMakeLists.txt" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/windows/runner/Runner.rc" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/windows/runner/flutter_window.cpp" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/windows/runner/flutter_window.h" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/windows/runner/main.cpp" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/windows/runner/resource.h" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/windows/runner/resources/app_icon.ico" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/windows/runner/runner.exe.manifest" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/windows/runner/utils.cpp" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/windows/runner/utils.h" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/windows/runner/win32_window.cpp" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/windows/runner/win32_window.h" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
++    </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+@@ -93,6 +512,7 @@
+   </component>
+   <component name="PropertiesComponent"><![CDATA[{
+   "keyToString": {
++    "Flutter.Unnamed.executor": "Run",
+     "Flutter.main.dart.executor": "Run",
+     "RunOnceActivity.ShowReadmeOnStart": "true",
+     "RunOnceActivity.cidr.known.project.marker": "true",
+@@ -101,15 +521,21 @@
+     "cidr.known.project.marker": "true",
+     "com.google.services.firebase.aqiPopupShown": "true",
+     "dart.analysis.tool.window.visible": "false",
+-    "git-widget-placeholder": "gh-pages",
++    "git-widget-placeholder": "gh-pages1",
+     "ignore.virus.scanning.warn.message": "true",
+     "io.flutter.reload.alreadyRun": "true",
+     "kotlin-language-version-configured": "true",
+-    "last_opened_file_path": "C:/Users/Abhinav/Desktop/NeoInsight/neoinsight",
+-    "settings.editor.selected.configurable": "device.mirroring",
++    "last_opened_file_path": "C:/Flutter/flutter/bin/cache/dart-sdk",
++    "settings.editor.selected.configurable": "dart.settings",
+     "show.migrate.to.gradle.popup": "false"
+   }
+ }]]></component>
++  <component name="RunManager">
++    <configuration name="Unnamed" type="FlutterRunConfigurationType" factoryName="Flutter" nameIsGenerated="true">
++      <option name="filePath" value="$PROJECT_DIR$/lib/main.dart" />
++      <method v="2" />
++    </configuration>
++  </component>
+   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+   <component name="TaskManager">
+     <task active="true" id="Default" summary="Default task">

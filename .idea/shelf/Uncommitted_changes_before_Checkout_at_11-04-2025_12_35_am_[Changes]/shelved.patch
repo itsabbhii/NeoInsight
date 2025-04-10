@@ -1,0 +1,446 @@
+Index: android/app/.cxx/Debug/714b4v5j/armeabi-v7a/.cmake/api/v1/reply/index-2025-04-06T12-45-30-0931.json
+===================================================================
+diff --git a/android/app/.cxx/Debug/714b4v5j/armeabi-v7a/.cmake/api/v1/reply/index-2025-04-06T12-45-30-0931.json b/android/app/.cxx/Debug/714b4v5j/armeabi-v7a/.cmake/api/v1/reply/index-2025-04-06T12-45-30-0931.json
+deleted file mode 100644
+--- a/android/app/.cxx/Debug/714b4v5j/armeabi-v7a/.cmake/api/v1/reply/index-2025-04-06T12-45-30-0931.json	(revision 15538198b981aa9b164dc732265287dbd53bdda7)
++++ /dev/null	(revision 15538198b981aa9b164dc732265287dbd53bdda7)
+@@ -1,92 +0,0 @@
+-{
+-	"cmake" : 
+-	{
+-		"generator" : 
+-		{
+-			"multiConfig" : false,
+-			"name" : "Ninja"
+-		},
+-		"paths" : 
+-		{
+-			"cmake" : "C:/Users/Abhinav/AppData/Local/Android/Sdk/cmake/3.18.1/bin/cmake.exe",
+-			"cpack" : "C:/Users/Abhinav/AppData/Local/Android/Sdk/cmake/3.18.1/bin/cpack.exe",
+-			"ctest" : "C:/Users/Abhinav/AppData/Local/Android/Sdk/cmake/3.18.1/bin/ctest.exe",
+-			"root" : "C:/Users/Abhinav/AppData/Local/Android/Sdk/cmake/3.18.1/share/cmake-3.18"
+-		},
+-		"version" : 
+-		{
+-			"isDirty" : true,
+-			"major" : 3,
+-			"minor" : 18,
+-			"patch" : 1,
+-			"string" : "3.18.1-g262b901-dirty",
+-			"suffix" : "g262b901"
+-		}
+-	},
+-	"objects" : 
+-	[
+-		{
+-			"jsonFile" : "codemodel-v2-93f936fb37dd931faf2f.json",
+-			"kind" : "codemodel",
+-			"version" : 
+-			{
+-				"major" : 2,
+-				"minor" : 1
+-			}
+-		},
+-		{
+-			"jsonFile" : "cache-v2-be457e6ebd2b28e23cb0.json",
+-			"kind" : "cache",
+-			"version" : 
+-			{
+-				"major" : 2,
+-				"minor" : 0
+-			}
+-		},
+-		{
+-			"jsonFile" : "cmakeFiles-v1-13a457a80029a7896085.json",
+-			"kind" : "cmakeFiles",
+-			"version" : 
+-			{
+-				"major" : 1,
+-				"minor" : 0
+-			}
+-		}
+-	],
+-	"reply" : 
+-	{
+-		"client-agp" : 
+-		{
+-			"cache-v2" : 
+-			{
+-				"jsonFile" : "cache-v2-be457e6ebd2b28e23cb0.json",
+-				"kind" : "cache",
+-				"version" : 
+-				{
+-					"major" : 2,
+-					"minor" : 0
+-				}
+-			},
+-			"cmakeFiles-v1" : 
+-			{
+-				"jsonFile" : "cmakeFiles-v1-13a457a80029a7896085.json",
+-				"kind" : "cmakeFiles",
+-				"version" : 
+-				{
+-					"major" : 1,
+-					"minor" : 0
+-				}
+-			},
+-			"codemodel-v2" : 
+-			{
+-				"jsonFile" : "codemodel-v2-93f936fb37dd931faf2f.json",
+-				"kind" : "codemodel",
+-				"version" : 
+-				{
+-					"major" : 2,
+-					"minor" : 1
+-				}
+-			}
+-		}
+-	}
+-}
+Index: android/app/.cxx/Debug/714b4v5j/x86/.cmake/api/v1/reply/index-2025-04-06T12-45-35-0789.json
+===================================================================
+diff --git a/android/app/.cxx/Debug/714b4v5j/x86/.cmake/api/v1/reply/index-2025-04-06T12-45-35-0789.json b/android/app/.cxx/Debug/714b4v5j/x86/.cmake/api/v1/reply/index-2025-04-06T12-45-35-0789.json
+deleted file mode 100644
+--- a/android/app/.cxx/Debug/714b4v5j/x86/.cmake/api/v1/reply/index-2025-04-06T12-45-35-0789.json	(revision 15538198b981aa9b164dc732265287dbd53bdda7)
++++ /dev/null	(revision 15538198b981aa9b164dc732265287dbd53bdda7)
+@@ -1,92 +0,0 @@
+-{
+-	"cmake" : 
+-	{
+-		"generator" : 
+-		{
+-			"multiConfig" : false,
+-			"name" : "Ninja"
+-		},
+-		"paths" : 
+-		{
+-			"cmake" : "C:/Users/Abhinav/AppData/Local/Android/Sdk/cmake/3.18.1/bin/cmake.exe",
+-			"cpack" : "C:/Users/Abhinav/AppData/Local/Android/Sdk/cmake/3.18.1/bin/cpack.exe",
+-			"ctest" : "C:/Users/Abhinav/AppData/Local/Android/Sdk/cmake/3.18.1/bin/ctest.exe",
+-			"root" : "C:/Users/Abhinav/AppData/Local/Android/Sdk/cmake/3.18.1/share/cmake-3.18"
+-		},
+-		"version" : 
+-		{
+-			"isDirty" : true,
+-			"major" : 3,
+-			"minor" : 18,
+-			"patch" : 1,
+-			"string" : "3.18.1-g262b901-dirty",
+-			"suffix" : "g262b901"
+-		}
+-	},
+-	"objects" : 
+-	[
+-		{
+-			"jsonFile" : "codemodel-v2-3f94d7f088c23700e3f9.json",
+-			"kind" : "codemodel",
+-			"version" : 
+-			{
+-				"major" : 2,
+-				"minor" : 1
+-			}
+-		},
+-		{
+-			"jsonFile" : "cache-v2-88d4af5c8659dbcafbf5.json",
+-			"kind" : "cache",
+-			"version" : 
+-			{
+-				"major" : 2,
+-				"minor" : 0
+-			}
+-		},
+-		{
+-			"jsonFile" : "cmakeFiles-v1-97775388172bba985358.json",
+-			"kind" : "cmakeFiles",
+-			"version" : 
+-			{
+-				"major" : 1,
+-				"minor" : 0
+-			}
+-		}
+-	],
+-	"reply" : 
+-	{
+-		"client-agp" : 
+-		{
+-			"cache-v2" : 
+-			{
+-				"jsonFile" : "cache-v2-88d4af5c8659dbcafbf5.json",
+-				"kind" : "cache",
+-				"version" : 
+-				{
+-					"major" : 2,
+-					"minor" : 0
+-				}
+-			},
+-			"cmakeFiles-v1" : 
+-			{
+-				"jsonFile" : "cmakeFiles-v1-97775388172bba985358.json",
+-				"kind" : "cmakeFiles",
+-				"version" : 
+-				{
+-					"major" : 1,
+-					"minor" : 0
+-				}
+-			},
+-			"codemodel-v2" : 
+-			{
+-				"jsonFile" : "codemodel-v2-3f94d7f088c23700e3f9.json",
+-				"kind" : "codemodel",
+-				"version" : 
+-				{
+-					"major" : 2,
+-					"minor" : 1
+-				}
+-			}
+-		}
+-	}
+-}
+Index: android/app/.cxx/Debug/714b4v5j/arm64-v8a/.cmake/api/v1/reply/index-2025-04-06T12-43-25-0896.json
+===================================================================
+diff --git a/android/app/.cxx/Debug/714b4v5j/arm64-v8a/.cmake/api/v1/reply/index-2025-04-06T12-43-25-0896.json b/android/app/.cxx/Debug/714b4v5j/arm64-v8a/.cmake/api/v1/reply/index-2025-04-06T12-43-25-0896.json
+deleted file mode 100644
+--- a/android/app/.cxx/Debug/714b4v5j/arm64-v8a/.cmake/api/v1/reply/index-2025-04-06T12-43-25-0896.json	(revision 15538198b981aa9b164dc732265287dbd53bdda7)
++++ /dev/null	(revision 15538198b981aa9b164dc732265287dbd53bdda7)
+@@ -1,92 +0,0 @@
+-{
+-	"cmake" : 
+-	{
+-		"generator" : 
+-		{
+-			"multiConfig" : false,
+-			"name" : "Ninja"
+-		},
+-		"paths" : 
+-		{
+-			"cmake" : "C:/Users/Abhinav/AppData/Local/Android/Sdk/cmake/3.18.1/bin/cmake.exe",
+-			"cpack" : "C:/Users/Abhinav/AppData/Local/Android/Sdk/cmake/3.18.1/bin/cpack.exe",
+-			"ctest" : "C:/Users/Abhinav/AppData/Local/Android/Sdk/cmake/3.18.1/bin/ctest.exe",
+-			"root" : "C:/Users/Abhinav/AppData/Local/Android/Sdk/cmake/3.18.1/share/cmake-3.18"
+-		},
+-		"version" : 
+-		{
+-			"isDirty" : true,
+-			"major" : 3,
+-			"minor" : 18,
+-			"patch" : 1,
+-			"string" : "3.18.1-g262b901-dirty",
+-			"suffix" : "g262b901"
+-		}
+-	},
+-	"objects" : 
+-	[
+-		{
+-			"jsonFile" : "codemodel-v2-77f59997cb64a606e1ae.json",
+-			"kind" : "codemodel",
+-			"version" : 
+-			{
+-				"major" : 2,
+-				"minor" : 1
+-			}
+-		},
+-		{
+-			"jsonFile" : "cache-v2-1405dcdc15be133e07a2.json",
+-			"kind" : "cache",
+-			"version" : 
+-			{
+-				"major" : 2,
+-				"minor" : 0
+-			}
+-		},
+-		{
+-			"jsonFile" : "cmakeFiles-v1-b1ab46c6dbde87d69120.json",
+-			"kind" : "cmakeFiles",
+-			"version" : 
+-			{
+-				"major" : 1,
+-				"minor" : 0
+-			}
+-		}
+-	],
+-	"reply" : 
+-	{
+-		"client-agp" : 
+-		{
+-			"cache-v2" : 
+-			{
+-				"jsonFile" : "cache-v2-1405dcdc15be133e07a2.json",
+-				"kind" : "cache",
+-				"version" : 
+-				{
+-					"major" : 2,
+-					"minor" : 0
+-				}
+-			},
+-			"cmakeFiles-v1" : 
+-			{
+-				"jsonFile" : "cmakeFiles-v1-b1ab46c6dbde87d69120.json",
+-				"kind" : "cmakeFiles",
+-				"version" : 
+-				{
+-					"major" : 1,
+-					"minor" : 0
+-				}
+-			},
+-			"codemodel-v2" : 
+-			{
+-				"jsonFile" : "codemodel-v2-77f59997cb64a606e1ae.json",
+-				"kind" : "codemodel",
+-				"version" : 
+-				{
+-					"major" : 2,
+-					"minor" : 1
+-				}
+-			}
+-		}
+-	}
+-}
+Index: android/app/.cxx/Debug/714b4v5j/x86_64/.cmake/api/v1/reply/index-2025-04-06T12-45-39-0708.json
+===================================================================
+diff --git a/android/app/.cxx/Debug/714b4v5j/x86_64/.cmake/api/v1/reply/index-2025-04-06T12-45-39-0708.json b/android/app/.cxx/Debug/714b4v5j/x86_64/.cmake/api/v1/reply/index-2025-04-06T12-45-39-0708.json
+deleted file mode 100644
+--- a/android/app/.cxx/Debug/714b4v5j/x86_64/.cmake/api/v1/reply/index-2025-04-06T12-45-39-0708.json	(revision 15538198b981aa9b164dc732265287dbd53bdda7)
++++ /dev/null	(revision 15538198b981aa9b164dc732265287dbd53bdda7)
+@@ -1,92 +0,0 @@
+-{
+-	"cmake" : 
+-	{
+-		"generator" : 
+-		{
+-			"multiConfig" : false,
+-			"name" : "Ninja"
+-		},
+-		"paths" : 
+-		{
+-			"cmake" : "C:/Users/Abhinav/AppData/Local/Android/Sdk/cmake/3.18.1/bin/cmake.exe",
+-			"cpack" : "C:/Users/Abhinav/AppData/Local/Android/Sdk/cmake/3.18.1/bin/cpack.exe",
+-			"ctest" : "C:/Users/Abhinav/AppData/Local/Android/Sdk/cmake/3.18.1/bin/ctest.exe",
+-			"root" : "C:/Users/Abhinav/AppData/Local/Android/Sdk/cmake/3.18.1/share/cmake-3.18"
+-		},
+-		"version" : 
+-		{
+-			"isDirty" : true,
+-			"major" : 3,
+-			"minor" : 18,
+-			"patch" : 1,
+-			"string" : "3.18.1-g262b901-dirty",
+-			"suffix" : "g262b901"
+-		}
+-	},
+-	"objects" : 
+-	[
+-		{
+-			"jsonFile" : "codemodel-v2-0ce7f351edea1455f122.json",
+-			"kind" : "codemodel",
+-			"version" : 
+-			{
+-				"major" : 2,
+-				"minor" : 1
+-			}
+-		},
+-		{
+-			"jsonFile" : "cache-v2-15404c9418f9f1a10da4.json",
+-			"kind" : "cache",
+-			"version" : 
+-			{
+-				"major" : 2,
+-				"minor" : 0
+-			}
+-		},
+-		{
+-			"jsonFile" : "cmakeFiles-v1-db3de106171050575c7b.json",
+-			"kind" : "cmakeFiles",
+-			"version" : 
+-			{
+-				"major" : 1,
+-				"minor" : 0
+-			}
+-		}
+-	],
+-	"reply" : 
+-	{
+-		"client-agp" : 
+-		{
+-			"cache-v2" : 
+-			{
+-				"jsonFile" : "cache-v2-15404c9418f9f1a10da4.json",
+-				"kind" : "cache",
+-				"version" : 
+-				{
+-					"major" : 2,
+-					"minor" : 0
+-				}
+-			},
+-			"cmakeFiles-v1" : 
+-			{
+-				"jsonFile" : "cmakeFiles-v1-db3de106171050575c7b.json",
+-				"kind" : "cmakeFiles",
+-				"version" : 
+-				{
+-					"major" : 1,
+-					"minor" : 0
+-				}
+-			},
+-			"codemodel-v2" : 
+-			{
+-				"jsonFile" : "codemodel-v2-0ce7f351edea1455f122.json",
+-				"kind" : "codemodel",
+-				"version" : 
+-				{
+-					"major" : 2,
+-					"minor" : 1
+-				}
+-			}
+-		}
+-	}
+-}
+Index: .metadata
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+># This file tracks properties of this Flutter project.\r\n# Used by Flutter tool to assess capabilities and perform upgrades etc.\r\n#\r\n# This file should be version controlled and should not be manually edited.\r\n\r\nversion:\r\n  revision: \"5874a72aa4c779a02553007c47dacbefba2374dc\"\r\n  channel: \"stable\"\r\n\r\nproject_type: app\r\n\r\n# Tracks metadata for the flutter migrate command\r\nmigration:\r\n  platforms:\r\n    - platform: root\r\n      create_revision: 5874a72aa4c779a02553007c47dacbefba2374dc\r\n      base_revision: 5874a72aa4c779a02553007c47dacbefba2374dc\r\n    - platform: android\r\n      create_revision: 5874a72aa4c779a02553007c47dacbefba2374dc\r\n      base_revision: 5874a72aa4c779a02553007c47dacbefba2374dc\r\n\r\n  # User provided section\r\n\r\n  # List of Local paths (relative to this file) that should be\r\n  # ignored by the migrate tool.\r\n  #\r\n  # Files that are not part of the templates will be ignored by default.\r\n  unmanaged_files:\r\n    - 'lib/main.dart'\r\n    - 'ios/Runner.xcodeproj/project.pbxproj'\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.metadata b/.metadata
+--- a/.metadata	(revision 15538198b981aa9b164dc732265287dbd53bdda7)
++++ b/.metadata	(date 1744310127574)
+@@ -4,7 +4,7 @@
+ # This file should be version controlled and should not be manually edited.
+ 
+ version:
+-  revision: "5874a72aa4c779a02553007c47dacbefba2374dc"
++  revision: "35c388afb57ef061d06a39b537336c87e0e3d1b1"
+   channel: "stable"
+ 
+ project_type: app
+@@ -13,11 +13,26 @@
+ migration:
+   platforms:
+     - platform: root
+-      create_revision: 5874a72aa4c779a02553007c47dacbefba2374dc
+-      base_revision: 5874a72aa4c779a02553007c47dacbefba2374dc
++      create_revision: 35c388afb57ef061d06a39b537336c87e0e3d1b1
++      base_revision: 35c388afb57ef061d06a39b537336c87e0e3d1b1
+     - platform: android
+-      create_revision: 5874a72aa4c779a02553007c47dacbefba2374dc
+-      base_revision: 5874a72aa4c779a02553007c47dacbefba2374dc
++      create_revision: 35c388afb57ef061d06a39b537336c87e0e3d1b1
++      base_revision: 35c388afb57ef061d06a39b537336c87e0e3d1b1
++    - platform: ios
++      create_revision: 35c388afb57ef061d06a39b537336c87e0e3d1b1
++      base_revision: 35c388afb57ef061d06a39b537336c87e0e3d1b1
++    - platform: linux
++      create_revision: 35c388afb57ef061d06a39b537336c87e0e3d1b1
++      base_revision: 35c388afb57ef061d06a39b537336c87e0e3d1b1
++    - platform: macos
++      create_revision: 35c388afb57ef061d06a39b537336c87e0e3d1b1
++      base_revision: 35c388afb57ef061d06a39b537336c87e0e3d1b1
++    - platform: web
++      create_revision: 35c388afb57ef061d06a39b537336c87e0e3d1b1
++      base_revision: 35c388afb57ef061d06a39b537336c87e0e3d1b1
++    - platform: windows
++      create_revision: 35c388afb57ef061d06a39b537336c87e0e3d1b1
++      base_revision: 35c388afb57ef061d06a39b537336c87e0e3d1b1
+ 
+   # User provided section
+ 
