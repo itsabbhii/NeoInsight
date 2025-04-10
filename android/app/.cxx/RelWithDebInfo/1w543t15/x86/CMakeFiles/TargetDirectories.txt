@@ -1,2 +1,0 @@
-C:/Users/Abhinav/Desktop/NeoInsight/neoinsight/android/app/.cxx/RelWithDebInfo/1w543t15/x86/CMakeFiles/edit_cache.dir
-C:/Users/Abhinav/Desktop/NeoInsight/neoinsight/android/app/.cxx/RelWithDebInfo/1w543t15/x86/CMakeFiles/rebuild_cache.dir

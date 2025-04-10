@@ -1,0 +1,1 @@
+ C:\\Users\\Abhinav\\Desktop\\NeoInsight\\neoinsight\\.dart_tool\\flutter_build\\a5ffde0041660e1684687a705ea197a7\\native_assets.yaml: 
